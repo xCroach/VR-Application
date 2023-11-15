@@ -26,6 +26,10 @@ public class TableAnimation : MonoBehaviour
         {
             anim.SetBool("isAnimating",true);
         }
+        else if (lever.GetComponent<HingeJoint>().angle > -40)
+        {
+            anim.SetBool("isAnimating",false);
+        }
         
     }
 }
