@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BallAnimation.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BallAnimation.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/MoveRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/MoveRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimateHandOnInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimateHandOnInput.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +96,8 @@
       <workItem from="1699969985724" duration="1857000" />
       <workItem from="1700054948721" duration="1100000" />
       <workItem from="1700056409447" duration="1214000" />
+      <workItem from="1700138728187" duration="770000" />
+      <workItem from="1700139818983" duration="1647000" />
     </task>
     <servers />
   </component>
