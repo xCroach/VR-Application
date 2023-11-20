@@ -19,14 +19,14 @@ public class TableAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lever = GameObject.Find("Lever");
-        Debug.Log(lever.GetComponent<HingeJoint>().angle);
+        lever = GameObject.Find("LeverMiddle");
+        //Debug.Log(lever.GetComponent<HingeJoint>().angle);
 
-        if (lever.GetComponent<HingeJoint>().angle <= -40)
+        if (lever.GetComponent<HingeJoint>().angle <= -40 || lever.GetComponent<HingeJoint>().angle >= 40)
         {
             anim.SetBool("isAnimating",true);
         }
-        else if (lever.GetComponent<HingeJoint>().angle > -40)
+        else
         {
             anim.SetBool("isAnimating",false);
         }
