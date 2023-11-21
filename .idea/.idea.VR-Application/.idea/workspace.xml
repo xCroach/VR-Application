@@ -5,71 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimateHandOnInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimateHandOnInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TableAnimation/MoveLeft.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TableAnimation/MoveLeft.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TableAnimation/MoveRight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TableAnimation/MoveRight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Materials/pistol.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Materials/pistol.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/Model/Grey 3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/pistol.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pistol/pistol.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TableAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TableAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/New Lighting Settings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/New Lighting Settings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_01_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_01_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_diffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_diffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_gloss.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_gloss.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_normal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_normal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_specular.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Bricks_specular.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Height_map.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Materials/Height_map.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_diffuse.TGA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_gloss.TGA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_gloss.TGA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_normal.TGA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_normal.TGA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_specular.TGA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Bricks_specular.TGA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Height_map.TGA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileableBricksWall/Textures/Height_map.TGA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +138,7 @@
       <workItem from="1700476695976" duration="97000" />
       <workItem from="1700480378583" duration="3000" />
       <workItem from="1700483317791" duration="679000" />
+      <workItem from="1700573289671" duration="54000" />
     </task>
     <servers />
   </component>
