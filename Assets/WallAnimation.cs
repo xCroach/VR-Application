@@ -8,7 +8,7 @@ public class WallAnimation : MonoBehaviour
 
     public Animator animator;
     public GameObject lever;
-    
+    [SerializeField] private GameObject sound;    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +24,12 @@ public class WallAnimation : MonoBehaviour
         if (lever.GetComponent<HingeJoint>().angle <= -40 || lever.GetComponent<HingeJoint>().angle >= 40)
         {
             animator.SetBool("wallDown",true);
+            sound.SetActive(true);
         }
         else
         {
             animator.SetBool("wallDown",false);
+            sound.SetActive(false);
         }
         
     }
