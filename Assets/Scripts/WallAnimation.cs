@@ -24,6 +24,7 @@ public class WallAnimation : MonoBehaviour
         if (lever.GetComponent<HingeJoint>().angle <= -40 || lever.GetComponent<HingeJoint>().angle >= 40)
         {
             animator.SetBool("wallDown",true);
+            lever.GetComponent<AudioSource>().Play();
             sound.SetActive(true);
         }
         else

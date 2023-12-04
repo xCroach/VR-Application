@@ -6,26 +6,60 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/WallAnimation/WallAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WallAnimation/WallAnimation.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/WallAnimation/WallDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WallAnimation/WallDown.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BrickWall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BrickWall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/Glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/Glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/LightBulb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/LightBulb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/SimpleWallLamp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/SimpleWallLamp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp_Base.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp_Base.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp_Base Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp_Base Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EscapeRoomMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EscapeRoomMap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lever.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lever.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleWallLampWithLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleWallLampWithLight.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-2_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-2_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Lightbox Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lightbox Settings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WallAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WallAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +194,8 @@
       <workItem from="1700483317791" duration="679000" />
       <workItem from="1700573289671" duration="54000" />
       <workItem from="1700846575979" duration="1393000" />
+      <workItem from="1701692977759" duration="714000" />
+      <workItem from="1701696510685" duration="3359000" />
     </task>
     <servers />
   </component>
