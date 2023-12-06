@@ -7,8 +7,11 @@ public class WallAnimation : MonoBehaviour
 {
 
     public Animator animator;
-    public GameObject lever;
-    [SerializeField] private GameObject sound;    
+    [SerializeField] private HingeJoint lever;
+    [SerializeField] private AudioSource doorSound;
+    [SerializeField] private AudioSource leverSound;
+
+    [SerializeField] private GameObject dropzones;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,16 +24,16 @@ public class WallAnimation : MonoBehaviour
         //lever = GameObject.Find("LeverMiddle");
         //Debug.Log(lever.GetComponent<HingeJoint>().angle);
         
-        if (lever.GetComponent<HingeJoint>().angle <= -40 || lever.GetComponent<HingeJoint>().angle >= 40)
+        if (lever.angle <= -40 || lever.angle >= 40)
         {
             animator.SetBool("wallDown",true);
-            lever.GetComponent<AudioSource>().Play();
-            sound.SetActive(true);
+            leverSound.Play();
+            doorSound.Play();
+            dropzones.SetActive(true);
         }
         else
         {
             animator.SetBool("wallDown",false);
-            sound.SetActive(false);
         }
         
     }

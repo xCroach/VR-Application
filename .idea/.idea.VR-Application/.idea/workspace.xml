@@ -6,69 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BrickWall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BrickWall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/Glass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/Glass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/LightBulb.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/LightBulb.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/SimpleWallLamp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Materials/SimpleWallLamp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp_Base.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Meshes/SimpleWallLamp_Base.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp_Base Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Prefab/SimpleWallLamp_Base Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Scene/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/Glass_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Outdoor Wall Lamp/Textures/SimpleWallLamp_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EscapeRoomMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EscapeRoomMap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lever.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lever.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleWallLampWithLight.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SimpleWallLampWithLight.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WallAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WallAnimation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropzoneTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DropzoneTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.8/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -78,27 +31,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;do_not_show_Android_plugin_suggestion&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "do_not_show_Android_plugin_suggestion": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\mstei\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\mstei\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\mstei\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\mstei\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mstei\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\mstei\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe" />
@@ -196,6 +150,7 @@
       <workItem from="1700846575979" duration="1393000" />
       <workItem from="1701692977759" duration="714000" />
       <workItem from="1701696510685" duration="3359000" />
+      <workItem from="1701851162790" duration="4131000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,38 +7,54 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class DropzoneTrigger : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private GameObject sound;
+    [SerializeField] private AudioSource sound;
 
-    [SerializeField] private GameObject dropZonePineapple;
-    [SerializeField] private GameObject dropZonePyramid;
-    [SerializeField] private GameObject dropZoneCross;
+    [SerializeField] private XRSocketInteractor dropZonePineapple;
+    [SerializeField] private XRSocketInteractor dropZonePyramid;
+    [SerializeField] private XRSocketInteractor dropZoneCross;
 
+    private int socketsFilled = 0;
 
-    public bool pineapple = false;
-    
-    public bool pyramid = false;
-    
-    public bool cross = false;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        if (dropZonePineapple.GetComponent<XRSocketInteractor>().interactablesSelected.Count > 0 &&
-            dropZonePyramid.GetComponent<XRSocketInteractor>().interactablesSelected.Count > 0 &&
-            dropZoneCross.GetComponent<XRSocketInteractor>().interactablesSelected.Count > 0)
+        dropZonePineapple.selectEntered.AddListener(OnSocketFilled);
+        dropZonePyramid.selectEntered.AddListener(OnSocketFilled);
+        dropZoneCross.selectEntered.AddListener(OnSocketFilled);
+        
+        dropZonePineapple.selectExited.AddListener(OnSocketEmptied);
+        dropZonePyramid.selectExited.AddListener(OnSocketEmptied);
+        dropZoneCross.selectExited.AddListener(OnSocketEmptied);
+    }
+    private void OnDisable()
+    {
+        dropZonePineapple.selectEntered.RemoveListener(OnSocketFilled);
+        dropZonePyramid.selectEntered.RemoveListener(OnSocketFilled);
+        dropZoneCross.selectEntered.RemoveListener(OnSocketFilled);
+        
+        dropZonePineapple.selectExited.RemoveListener(OnSocketEmptied);
+        dropZonePyramid.selectExited.RemoveListener(OnSocketEmptied);
+        dropZoneCross.selectExited.RemoveListener(OnSocketEmptied);
+    }
+    private void OnSocketFilled(SelectEnterEventArgs args)
+    {
+        socketsFilled++;
+        if (socketsFilled == 3)
         {
-            animator.SetBool("wallDown",true);
-            sound.SetActive(true);
+            PlayAnimation();
         }
-        else
-        {
-            animator.SetBool("wallDown",false);
-            sound.SetActive(false);
-        }
+    }
+    private void OnSocketEmptied(SelectExitEventArgs args)
+    {
+        socketsFilled--;
+    }
+    private void PlayAnimation()
+    {
+        animator.SetBool("wallDown",true);
+        sound.Play();
     }
 }
