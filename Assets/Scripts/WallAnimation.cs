@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class WallAnimation : MonoBehaviour
 {
 
-    public Animator animator;
-    [SerializeField] private HingeJoint lever;
+    [SerializeField] private Animator animator;
+    [SerializeField] private XRGrabInteractable leverGrab;
+    [SerializeField] private HingeJoint leverJoint;
     [SerializeField] private AudioSource doorSound;
     [SerializeField] private AudioSource leverSound;
 
@@ -18,23 +20,29 @@ public class WallAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        //lever = GameObject.Find("LeverMiddle");
-        //Debug.Log(lever.GetComponent<HingeJoint>().angle);
-        
-        if (lever.angle <= -40 || lever.angle >= 40)
+        leverGrab.selectEntered.AddListener(OnLeverTilted);
+        leverGrab.selectExited.AddListener(OnLeverNotTilted);
+    }
+    
+    private void OnDisable()
+    {
+        leverGrab.selectEntered.RemoveListener(OnLeverTilted);
+        leverGrab.selectExited.RemoveListener(OnLeverNotTilted);
+    }
+
+    private void OnLeverTilted(SelectEnterEventArgs args)
+    {
+        if (leverJoint.angle <= -40 || leverJoint.angle >= 40)
         {
             animator.SetBool("wallDown",true);
             leverSound.Play();
             doorSound.Play();
             dropzones.SetActive(true);
         }
-        else
-        {
-            animator.SetBool("wallDown",false);
-        }
-        
+    }
+    private void OnLeverNotTilted(SelectExitEventArgs args)
+    {
     }
 }
