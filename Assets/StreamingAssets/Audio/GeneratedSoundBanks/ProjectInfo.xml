@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="VR-Application_WwiseProject" GUID="{5BAF44E9-8274-4386-9C2E-1F82165715C4}" Generator="2022.1.9.8365"/>
+	<CacheRoot>../../../../VR-Application_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{3FF3474F-53ED-49B2-AB7F-4A4F360D304D}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../VR-Application_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{FC077EFE-2471-4A1F-8E9F-2B5FAF4D8342}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../VR-Application_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{B2F90012-E033-4686-9C53-8D36B202B7BC}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{56E6A014-4CC5-1068-DE78-CC4C9372F9A8}</FileHash>
+</ProjectInfo>

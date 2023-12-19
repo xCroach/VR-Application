@@ -14,6 +14,7 @@ public class WallAnimation : MonoBehaviour
     [SerializeField] private AudioSource leverSound;
 
     [SerializeField] private GameObject dropzones;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -34,15 +35,20 @@ public class WallAnimation : MonoBehaviour
 
     private void OnLeverTilted(SelectEnterEventArgs args)
     {
-        if (leverJoint.angle <= -40 || leverJoint.angle >= 40)
-        {
-            animator.SetBool("wallDown",true);
-            leverSound.Play();
-            doorSound.Play();
-            dropzones.SetActive(true);
-        }
+            if (leverJoint.angle <= -60)
+            {
+                Debug.Log("PlayAnimation");
+                PlayAnimation();
+            }
     }
     private void OnLeverNotTilted(SelectExitEventArgs args)
     {
+        Debug.Log("OnLeverNotTilted");
+    }
+    
+    private void PlayAnimation()
+    {
+        animator.SetBool("wallDown",true);
+        dropzones.SetActive(true);
     }
 }
