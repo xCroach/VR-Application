@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_music			\Default Work Unit\Play_music	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	406117286	Lost Temple Ruins	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Windows\SFX\Lost Temple Ruins_F5A7FEE6.wem	406117286.wem	\Actor-Mixer Hierarchy\Default Work Unit\music\Lost Temple Ruins	
+

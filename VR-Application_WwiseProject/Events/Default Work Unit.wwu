@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E4E7918D-D2A0-422D-9F5F-A91BE1B64E54}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E4E7918D-D2A0-422D-9F5F-A91BE1B64E54}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E4E7918D-D2A0-422D-9F5F-A91BE1B64E54}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_music" ID="{332EAF20-23D8-46D7-948E-013803F9BE80}">
+					<ChildrenList>
+						<Action Name="" ID="{41D9502F-A231-460E-881D-2D7C8C66662C}" ShortID="21122502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

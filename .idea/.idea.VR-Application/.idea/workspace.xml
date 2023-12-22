@@ -6,8 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Control Surface Sessions/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Control Surface Sessions/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Events/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Events/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/SoundBanks/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/SoundBanks/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/States/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/States/Default Work Unit.wwu" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +32,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FireArrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoverBeforeFirstInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -157,6 +173,9 @@
       <workItem from="1703006383777" duration="259000" />
       <workItem from="1703006817668" duration="1162000" />
       <workItem from="1703059698515" duration="918000" />
+      <workItem from="1703090144782" duration="991000" />
+      <workItem from="1703154775608" duration="3885000" />
+      <workItem from="1703169006051" duration="3097000" />
     </task>
     <servers />
   </component>

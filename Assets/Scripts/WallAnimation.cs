@@ -21,31 +21,13 @@ public class WallAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnEnable()
+    private void FixedUpdate()
     {
-        leverGrab.selectEntered.AddListener(OnLeverTilted);
-        leverGrab.selectExited.AddListener(OnLeverNotTilted);
+        if (leverJoint.angle <= -60)
+        {
+            PlayAnimation();
+        }
     }
-    
-    private void OnDisable()
-    {
-        leverGrab.selectEntered.RemoveListener(OnLeverTilted);
-        leverGrab.selectExited.RemoveListener(OnLeverNotTilted);
-    }
-
-    private void OnLeverTilted(SelectEnterEventArgs args)
-    {
-            if (leverJoint.angle <= -60)
-            {
-                Debug.Log("PlayAnimation");
-                PlayAnimation();
-            }
-    }
-    private void OnLeverNotTilted(SelectExitEventArgs args)
-    {
-        Debug.Log("OnLeverNotTilted");
-    }
-    
     private void PlayAnimation()
     {
         animator.SetBool("wallDown",true);

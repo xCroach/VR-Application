@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{220D8DDF-51D3-73D1-2A55-6142DBC7DB26}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,7 +21,33 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3650723969" Name="background"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{485C6364-03AE-4797-12F0-84D525E8951E}">
+			<ShortName>EscapeRoom</ShortName>
+			<Path>EscapeRoom.bnk</Path>
+			<Media>
+				<File Id="406117286" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lost Temple Ruins.wav</ShortName>
+					<Path>Media/406117286.wem</Path>
+					<CachePath>SFX/Lost Temple Ruins_F5A7FEE6.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2932040671" Name="Play_music">
+					<MediaRefs>
+						<MediaRef Id="406117286"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85FB997E-979E-429B-B6F1-CF88BB808457}</FileHash>
+	<FileHash>{2A19B9D8-5658-83E5-0E50-6AD622C6C2D8}</FileHash>
 </SoundBanksInfo>
