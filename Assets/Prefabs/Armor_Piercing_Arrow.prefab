@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2587426810294806999}
   - component: {fileID: 5497585981940213866}
   - component: {fileID: 6316839228789379068}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 8378286015895344972}
   - component: {fileID: 5099538568763678958}
   - component: {fileID: 1457221998523144339}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Armor_Piercing_Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5262591280335271340}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 15.489942, y: 48.59, z: 42.808216}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
@@ -140,7 +140,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2

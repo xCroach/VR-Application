@@ -11332,7 +11332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733142450}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FirstAttach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11731,7 +11731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782219847}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SecondAttach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16969,7 +16969,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217630408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spawnpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16984,13 +16984,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217630407}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.8048, z: 0.031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1890821359}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1220820663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3807726716487158307, guid: 9dabc5ad990bf3f4692bc1fb3284b782,
@@ -17916,7 +17916,7 @@ GameObject:
   - component: {fileID: 1324097553}
   - component: {fileID: 1324097555}
   - component: {fileID: 1324097554}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CrossbowOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19728,7 +19728,7 @@ Transform:
   m_GameObject: {fileID: 1432521084}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9759168, z: -0, w: -0.21814321}
-  m_LocalPosition: {x: 37, y: 47.614, z: 47.85}
+  m_LocalPosition: {x: 15.03, y: 47.614, z: 43.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26785,7 +26785,7 @@ PrefabInstance:
     - target: {fileID: 1703763826288664785, guid: ba9444785a863ca47881cca5fa874378,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.375
+      value: -0.43
       objectReference: {fileID: 0}
     - target: {fileID: 1703763826288664785, guid: ba9444785a863ca47881cca5fa874378,
         type: 3}
@@ -26842,6 +26842,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crossbow
       objectReference: {fileID: 0}
+    - target: {fileID: 2084934084347886187, guid: ba9444785a863ca47881cca5fa874378,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017425571521725106, guid: ba9444785a863ca47881cca5fa874378,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -26870,6 +26880,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1890821361}
+    - targetCorrespondingSourceObject: {fileID: 2084934084347886187, guid: ba9444785a863ca47881cca5fa874378,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1890821367}
     - targetCorrespondingSourceObject: {fileID: 2084934084347886187, guid: ba9444785a863ca47881cca5fa874378,
         type: 3}
       insertIndex: -1
@@ -26937,10 +26951,58 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 618889496}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 705864784}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 618889496}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 705864784}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -27038,7 +27100,7 @@ MonoBehaviour:
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers:
-  - {fileID: 0}
+  - {fileID: 1890821367}
   m_AddDefaultGrabTransformers: 1
 --- !u!54 &1890821362
 Rigidbody:
@@ -27103,6 +27165,29 @@ MonoBehaviour:
   arrow: {fileID: 5262591280335271340, guid: 6d1f7df85a484044480f9e0f0106a049, type: 3}
   spawnPoint: {fileID: 1217630408}
   speed: 20
+--- !u!114 &1890821367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890821360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: -1
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1 &1913102030
 GameObject:
   m_ObjectHideFlags: 0
