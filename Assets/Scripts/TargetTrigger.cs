@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class ShootingTargets : MonoBehaviour
+public class TargetTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private HitTarget[] targets;
+    [SerializeField] private Target[] targets;
+    [SerializeField] private GameObject cube;
     
     private bool AllHit => targets.All(it=>it.hit);
     private bool alreadyTriggered = false;
@@ -19,6 +20,7 @@ public class ShootingTargets : MonoBehaviour
         {
             alreadyTriggered = true;
             //do some stuff
+            cube.SetActive(true);
         }
     }
 }
