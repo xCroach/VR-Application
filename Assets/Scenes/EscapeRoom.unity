@@ -3402,6 +3402,7 @@ GameObject:
   - component: {fileID: 193465478}
   - component: {fileID: 193465477}
   - component: {fileID: 193465476}
+  - component: {fileID: 193465479}
   m_Layer: 0
   m_Name: Target2
   m_TagString: Untagged
@@ -3439,7 +3440,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3495,6 +3496,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193465474}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &193465479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193465474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fb50445fe26dd43a573c8fcdd4d1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMaterial: {fileID: 2100000, guid: b9799e2b210a24a449be6cb5e358ab4d, type: 2}
+  target: {fileID: 193465474}
+  hit: 0
 --- !u!1 &201508550
 GameObject:
   m_ObjectHideFlags: 0
@@ -12917,7 +12933,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1072462503}
+    m_TransformParent: {fileID: 1364545725}
     m_Modifications:
     - target: {fileID: 1000014024592840, guid: a4cae002562d87e4ea0f3f9841c73dff, type: 3}
       propertyPath: m_Name
@@ -15308,8 +15324,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 856140365}
-  - {fileID: 2008213734}
+  - {fileID: 1364545725}
   m_Father: {fileID: 1773236498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1101416949
@@ -18946,6 +18961,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3524072592066997379}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1364545724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364545725}
+  - component: {fileID: 1364545726}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1364545725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364545724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 856140365}
+  - {fileID: 2008213734}
+  m_Father: {fileID: 1072462503}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364545726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364545724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9500af4c52376a4c9fc8e20c29238e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 1527946318}
+  - {fileID: 193465479}
+  - {fileID: 2004251439}
 --- !u!1001 &1364969124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21849,7 +21914,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22022,6 +22087,7 @@ GameObject:
   - component: {fileID: 1527946317}
   - component: {fileID: 1527946316}
   - component: {fileID: 1527946315}
+  - component: {fileID: 1527946318}
   m_Layer: 0
   m_Name: Target1
   m_TagString: Untagged
@@ -22059,7 +22125,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22115,6 +22181,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527946313}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1527946318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527946313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fb50445fe26dd43a573c8fcdd4d1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMaterial: {fileID: 2100000, guid: b9799e2b210a24a449be6cb5e358ab4d, type: 2}
+  target: {fileID: 1527946313}
+  hit: 0
 --- !u!1 &1531842975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5987910534225096149, guid: 9dabc5ad990bf3f4692bc1fb3284b782,
@@ -28422,6 +28503,7 @@ GameObject:
   - component: {fileID: 2004251438}
   - component: {fileID: 2004251437}
   - component: {fileID: 2004251436}
+  - component: {fileID: 2004251439}
   m_Layer: 0
   m_Name: Target3
   m_TagString: Untagged
@@ -28459,7 +28541,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -28515,13 +28597,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004251434}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2004251439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004251434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fb50445fe26dd43a573c8fcdd4d1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMaterial: {fileID: 2100000, guid: b9799e2b210a24a449be6cb5e358ab4d, type: 2}
+  target: {fileID: 2004251434}
+  hit: 0
 --- !u!1001 &2008213731
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1072462503}
+    m_TransformParent: {fileID: 1364545725}
     m_Modifications:
     - target: {fileID: 1000014024592840, guid: a4cae002562d87e4ea0f3f9841c73dff, type: 3}
       propertyPath: m_Name
