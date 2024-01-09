@@ -4,15 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class TargetTrigger : MonoBehaviour
+public class TargetHitDetector : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private Target[] targets;
-    [SerializeField] private GameObject cube;
+    [SerializeField] private Animator animator;
     
     private bool AllHit => targets.All(it=>it.hit);
     private bool alreadyTriggered = false;
-    
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -20,7 +25,7 @@ public class TargetTrigger : MonoBehaviour
         {
             alreadyTriggered = true;
             //do some stuff
-            cube.SetActive(true);
+            animator.SetBool("targetsHit",true);
         }
     }
 }
