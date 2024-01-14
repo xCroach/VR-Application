@@ -6,11 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Armor_Piercing_Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Armor_Piercing_Arrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoubleWallAnimation/DoubleWallAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoubleWallAnimation/DoubleWallAnimation.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assetpacks/Cartoon Temple Building Kit/Materials/Materials/Cartoon Temple Builder Kit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BLACK.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BLACK.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GreenTrans.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GreenTrans.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/VR-Application_WwiseProject.wproj" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/VR-Application_WwiseProject.wproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +181,13 @@
       <workItem from="1704732353375" duration="38000" />
       <workItem from="1704748531961" duration="2841000" />
       <workItem from="1704790519337" duration="4108000" />
+      <workItem from="1705082171968" duration="17000" />
+      <workItem from="1705098384445" duration="3000" />
+      <workItem from="1705146220723" duration="2356000" />
+      <workItem from="1705164384085" duration="591000" />
+      <workItem from="1705250298228" duration="625000" />
+      <workItem from="1705251640957" duration="13000" />
+      <workItem from="1705251678669" duration="601000" />
     </task>
     <servers />
   </component>
