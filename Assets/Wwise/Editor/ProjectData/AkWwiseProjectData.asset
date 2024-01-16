@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584984422468629826
+    m_lastTime: -8584961791268186182
     List:
+    - name: BowShot
+      guid: 47a35563c2305a4e9b5f2ae21725f29d
+      id: 2542640479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: BowShot
+        ObjectType: 3
+        guid: 47a35563c2305a4e9b5f2ae21725f29d
+      Path: Events\Default Work Unit\BowShot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_music
       guid: 20af2e33d823d746948e013803f9be80
       id: 2932040671

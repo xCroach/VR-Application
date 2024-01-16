@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{590B7C36-2709-7878-E7D0-21DF7270333A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6576ADC3-6D01-A975-75FC-5A74815CE9E6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -30,14 +30,14 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{485C6364-03AE-4797-12F0-84D525E8951E}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{53192944-C2BD-C8D0-81EF-C3491EE7BAAB}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
 				<File Id="406117286" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lost Temple Ruins.wav</ShortName>
 					<Path>Media/406117286.wem</Path>
-					<CachePath>SFX/Lost Temple Ruins_F5A7FEE6.wem</CachePath>
+					<CachePath>SFX/Lost Temple Ruins_2B83B97C.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -49,5 +49,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{113FC3A3-CB33-26A5-8409-A163F660F418}</FileHash>
+	<FileHash>{E5EDD061-5B31-938D-D5EA-775CB3EF030E}</FileHash>
 </SoundBanksInfo>
