@@ -1,19 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class DropzoneTrigger : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private AudioSource sound;
 
     [SerializeField] private XRSocketInteractor dropZonePineapple;
     [SerializeField] private XRSocketInteractor dropZonePyramid;
     [SerializeField] private XRSocketInteractor dropZoneCross;
 
     private int socketsFilled = 0;
+    private bool alreadyTriggered = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,12 +41,15 @@ public class DropzoneTrigger : MonoBehaviour
         dropZonePyramid.selectExited.RemoveListener(OnSocketEmptied);
         dropZoneCross.selectExited.RemoveListener(OnSocketEmptied);
     }
-    private void OnSocketFilled(SelectEnterEventArgs args)
+    private async void OnSocketFilled(SelectEnterEventArgs args)
     {
         socketsFilled++;
-        if (socketsFilled == 3)
+        if (socketsFilled == 3 && !alreadyTriggered)
         {
+            AkSoundEngine.PostEvent("Play_success", gameObject);
+            await Task.Delay(750);
             PlayAnimation();
+            alreadyTriggered = true;
         }
     }
     private void OnSocketEmptied(SelectExitEventArgs args)
@@ -55,6 +59,6 @@ public class DropzoneTrigger : MonoBehaviour
     private void PlayAnimation()
     {
         animator.SetBool("wallDown",true);
-        sound.Play();
+        AkSoundEngine.PostEvent("Play_door", gameObject);
     }
 }

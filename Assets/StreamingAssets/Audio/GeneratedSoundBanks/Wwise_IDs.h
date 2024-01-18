@@ -13,7 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BOW = 2992543902U;
+        static const AkUniqueID PLAY_DOOR = 2547633870U;
+        static const AkUniqueID PLAY_DROP = 2007351433U;
+        static const AkUniqueID PLAY_FIRE = 3015324718U;
+        static const AkUniqueID PLAY_LEVER = 3196500978U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_PICKUP = 3860455926U;
+        static const AkUniqueID PLAY_ROCKS = 2052558220U;
+        static const AkUniqueID PLAY_SOCKET = 2739173997U;
+        static const AkUniqueID PLAY_SUCCESS = 3943614907U;
+        static const AkUniqueID PLAY_TELEPORT = 3785065891U;
     } // namespace EVENTS
 
     namespace STATES

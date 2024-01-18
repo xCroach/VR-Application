@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d7fba2d38fe7434ba59d3c1202048afa
     GuidInternal: 
-    m_lastTime: -8584984422468619828
+    m_lastTime: -8584960045626430460
     List:
     - name: EscapeRoom
       guid: ec09ca5d878e6641bd543adee1b5a4fc
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584961791268186182
+    m_lastTime: -8584960049617610242
     List:
-    - name: BowShot
-      guid: 47a35563c2305a4e9b5f2ae21725f29d
-      id: 2542640479
+    - name: Ambient
+      guid: 07b894b315f98248a1e755dd3fb9b229
+      id: 77978275
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,10 +106,118 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d91e7e4a0d22d429f5fa91be1b64e54
-      - ElementName: BowShot
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 07b894b315f98248a1e755dd3fb9b229
+      Path: Events\Default Work Unit\Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Grabbable
+      guid: 266522424df87541ade7950226cec5ca
+      id: 1435554287
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Grabbable
+        ObjectType: 4
+        guid: 266522424df87541ade7950226cec5ca
+      Path: Events\Default Work Unit\Grabbable
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_bow
+      guid: ca9582b2fc189a4d95d5cd905bdc221d
+      id: 2992543902
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_bow
         ObjectType: 3
-        guid: 47a35563c2305a4e9b5f2ae21725f29d
-      Path: Events\Default Work Unit\BowShot
+        guid: ca9582b2fc189a4d95d5cd905bdc221d
+      Path: Events\Default Work Unit\Play_bow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_door
+      guid: 2736fa8d8030ff4ba702225cbb3ba7a4
+      id: 2547633870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_door
+        ObjectType: 3
+        guid: 2736fa8d8030ff4ba702225cbb3ba7a4
+      Path: Events\Default Work Unit\Play_door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_drop
+      guid: 14202929e45ce54f97692b563f1f2a38
+      id: 2007351433
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Grabbable
+        ObjectType: 4
+        guid: 266522424df87541ade7950226cec5ca
+      - ElementName: Play_drop
+        ObjectType: 3
+        guid: 14202929e45ce54f97692b563f1f2a38
+      Path: Events\Default Work Unit\Grabbable\Play_drop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_fire
+      guid: e56f7f3d2c13f045ad060f7eaeb2dc51
+      id: 3015324718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 07b894b315f98248a1e755dd3fb9b229
+      - ElementName: Play_fire
+        ObjectType: 3
+        guid: e56f7f3d2c13f045ad060f7eaeb2dc51
+      Path: Events\Default Work Unit\Ambient\Play_fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_lever
+      guid: 4311f1c99481a14786ce49e1421a8601
+      id: 3196500978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_lever
+        ObjectType: 3
+        guid: 4311f1c99481a14786ce49e1421a8601
+      Path: Events\Default Work Unit\Play_lever
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -123,10 +231,104 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 07b894b315f98248a1e755dd3fb9b229
       - ElementName: Play_music
         ObjectType: 3
         guid: 20af2e33d823d746948e013803f9be80
-      Path: Events\Default Work Unit\Play_music
+      Path: Events\Default Work Unit\Ambient\Play_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_pickup
+      guid: 7d55461ce48782489410455ec2e5cda4
+      id: 3860455926
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Grabbable
+        ObjectType: 4
+        guid: 266522424df87541ade7950226cec5ca
+      - ElementName: Play_pickup
+        ObjectType: 3
+        guid: 7d55461ce48782489410455ec2e5cda4
+      Path: Events\Default Work Unit\Grabbable\Play_pickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_rocks
+      guid: f62f31af89dbb64aa0e2b1707f3ef650
+      id: 2052558220
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_rocks
+        ObjectType: 3
+        guid: f62f31af89dbb64aa0e2b1707f3ef650
+      Path: Events\Default Work Unit\Play_rocks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_socket
+      guid: 2160bcb3ed19534cb018e0c719164433
+      id: 2739173997
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Grabbable
+        ObjectType: 4
+        guid: 266522424df87541ade7950226cec5ca
+      - ElementName: Play_socket
+        ObjectType: 3
+        guid: 2160bcb3ed19534cb018e0c719164433
+      Path: Events\Default Work Unit\Grabbable\Play_socket
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_success
+      guid: eb594dcc56e86841907dcd334e7470f2
+      id: 3943614907
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_success
+        ObjectType: 3
+        guid: eb594dcc56e86841907dcd334e7470f2
+      Path: Events\Default Work Unit\Play_success
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_teleport
+      guid: 5576a3f3283d2248b8a4c5aa5fb2be64
+      id: 3785065891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Play_teleport
+        ObjectType: 3
+        guid: 5576a3f3283d2248b8a4c5aa5fb2be64
+      Path: Events\Default Work Unit\Play_teleport
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -236,9 +438,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584992216676818453
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 01000000020000000300000006000000070000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

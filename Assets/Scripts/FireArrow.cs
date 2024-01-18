@@ -27,6 +27,7 @@ public class FireArrow : MonoBehaviour
         arrowBody.isKinematic = false;
         //newArrow.transform.rotation.Set(spawnPoint.rotation.x, spawnPoint.rotation.y + 90,spawnPoint.rotation.z,spawnPoint.rotation.w);
         arrowBody.AddForce(spawnPoint.up * speed, ForceMode.Impulse);
+        AkSoundEngine.PostEvent("Play_bow", gameObject);
         Destroy(newArrow,5);
     }
 }

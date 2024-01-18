@@ -23,9 +23,11 @@ public class TargetHitDetector : MonoBehaviour
     {
         if (!alreadyTriggered && AllHit)
         {
+            AkSoundEngine.PostEvent("Play_success", gameObject);
             alreadyTriggered = true;
             //do some stuff
             animator.SetBool("targetsHit",true);
+            AkSoundEngine.PostEvent("Play_door", gameObject);
         }
     }
 }

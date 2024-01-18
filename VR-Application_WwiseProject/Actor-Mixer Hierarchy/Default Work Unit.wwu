@@ -13,19 +13,10 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}" ShortID="1052144738">
+						<RandomSequenceContainer Name="Game_Start" ID="{77B880AB-BE49-4E8C-BC0A-6AC6F936EC63}" ShortID="295067540">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-21</Value>
-									</ValueList>
-								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -36,50 +27,104 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Lost Temple Ruins" ID="{C383C0B0-C75D-4649-A1C3-E9E23AEDD4DC}">
+								<Sound Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}" ShortID="1052144738">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="4.05993109821296"/>
-										<Property Name="LoopEnd" Type="Real64" Value="102.828754290597"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="2.13298235789457"/>
-										<Property Name="TrimEnd" Type="Real64" Value="102.898300653595"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Lost Temple Ruins.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="406117286"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lost Temple Ruins" ID="{C383C0B0-C75D-4649-A1C3-E9E23AEDD4DC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.05993109821296"/>
+												<Property Name="LoopEnd" Type="Real64" Value="102.828754290597"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.13298235789457"/>
+												<Property Name="TrimEnd" Type="Real64" Value="102.898300653595"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Lost Temple Ruins.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406117286"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lost Temple Ruins" ID="{C383C0B0-C75D-4649-A1C3-E9E23AEDD4DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Voiceover_Start_01" ID="{C55F9FC5-D3F3-47CB-8BBE-99A7EDB35C7F}" ShortID="302755295">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voiceover_Start_01" ID="{A50DE13F-CDAB-44DB-B8FD-3D48885F55D4}">
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Voiceover\Voiceover_Start_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4260930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voiceover_Start_01" ID="{A50DE13F-CDAB-44DB-B8FD-3D48885F55D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Lost Temple Ruins" ID="{C383C0B0-C75D-4649-A1C3-E9E23AEDD4DC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+							<Playlist>
+								<ItemRef Name="Voiceover_Start_01" ID="{C55F9FC5-D3F3-47CB-8BBE-99A7EDB35C7F}"/>
+								<ItemRef Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
-				<Sound Name="Click_pickUp" ID="{F158FF61-1297-49BE-AB65-37BF9D4911B2}" ShortID="1053988712">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Click_pickUp" ID="{A09083D0-F527-4EB6-B8EB-BAA685CFAB94}">
-							<Language>SFX</Language>
-							<AudioFile>Soundeffects\Click_pickUp.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1048755040"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Click_pickUp" ID="{A09083D0-F527-4EB6-B8EB-BAA685CFAB94}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="door-stone" ID="{FB5F0E05-A849-4300-9AF3-D62A117E04F7}" ShortID="784089718">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-23</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -90,6 +135,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="door-stone" ID="{000F4851-1FFF-4239-841D-8C27B4A33A01}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.286457175462778"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.435414906703422"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Soundeffects\door-stone.wav</AudioFile>
 							<MediaIDList>
@@ -101,29 +151,15 @@
 						<ActiveSource Name="door-stone" ID="{000F4851-1FFF-4239-841D-8C27B4A33A01}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Falling Object - 2" ID="{72436FE7-6322-414D-AEBB-2F220371F281}" ShortID="597910305">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Falling Object - 2" ID="{F3361DBA-8C91-4755-A030-A204937E035D}">
-							<Language>SFX</Language>
-							<AudioFile>Soundeffects\Falling Object - 2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="963339296"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Falling Object - 2" ID="{F3361DBA-8C91-4755-A030-A204937E035D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="LeverSound" ID="{10B84E76-BDE6-479E-9B46-BC7F7CE381B1}" ShortID="955734308">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -134,6 +170,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="LeverSound" ID="{69648B22-1898-4CDA-9543-6D36430D3D3A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0526322874828944"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.222969508791171"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.777043953383823"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Soundeffects\LeverSound.wav</AudioFile>
 							<MediaIDList>
@@ -145,31 +187,12 @@
 						<ActiveSource Name="LeverSound" ID="{69648B22-1898-4CDA-9543-6D36430D3D3A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="object_fallingDown" ID="{3A3B9724-E8CC-463C-B3C4-6224CB185A13}" ShortID="64938222">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Fire" ID="{6BE0C1F5-1A33-41A0-B326-B84AF11FEE97}" ShortID="276795176">
 					<ChildrenList>
-						<AudioFileSource Name="object_fallingDown" ID="{D381FEAA-2AF3-4DE9-B31E-8C25B65B4FF1}">
-							<Language>SFX</Language>
-							<AudioFile>Soundeffects\object_fallingDown.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1025905281"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="object_fallingDown" ID="{D381FEAA-2AF3-4DE9-B31E-8C25B65B4FF1}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Folder Name="Crossbow" ID="{61E897DB-54CB-4A84-95CD-98B78E5C53AF}" ShortID="842924265">
-					<ChildrenList>
-						<Sound Name="Arrow Impact 2" ID="{A8D40FE0-9627-47F3-87B3-5DB316E4CCCD}" ShortID="74826236">
+						<RandomSequenceContainer Name="Fire_Ambience" ID="{283CEF22-B2DF-430C-BB18-176A65B6E357}" ShortID="835623493">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -179,29 +202,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Arrow Impact 2" ID="{0EF1DA56-4540-44F7-9E5A-5A45F6993277}">
-									<Language>SFX</Language>
-									<AudioFile>Soundeffects\Crossbow\Arrow Impact 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="359756904"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Arrow Impact 2" ID="{0EF1DA56-4540-44F7-9E5A-5A45F6993277}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<RandomSequenceContainer Name="Bow Release" ID="{95753D49-A9B9-4D6D-A576-616D3E09587D}" ShortID="184870582">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Bow Release (Bow and Arrow) 1" ID="{9205FF5A-02A3-4E80-838E-0610E7975EC6}" ShortID="483752288">
+								<Sound Name="Ambiance_Campfire_Loop_Stereo" ID="{0DE8DFE3-702B-46DF-A26B-DB26CB20D1F0}" ShortID="852295152">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-43</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -211,26 +226,32 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Bow Release (Bow and Arrow) 1" ID="{6BEDF0C8-4A25-466F-B71B-69B323C6BE3F}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00735294117647059"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0106209150326798"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.197712418300654"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.323529411764706"/>
-											</PropertyList>
+										<AudioFileSource Name="Ambiance_Campfire_Loop_Stereo" ID="{16162604-6F84-4097-8592-8338FBAA42D7}">
 											<Language>SFX</Language>
-											<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 1.wav</AudioFile>
+											<AudioFile>Soundeffects\Fire\Ambiance_Campfire_Loop_Stereo.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="797709539"/>
+												<MediaID ID="116826361"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Bow Release (Bow and Arrow) 1" ID="{6BEDF0C8-4A25-466F-B71B-69B323C6BE3F}" Platform="Linked"/>
+										<ActiveSource Name="Ambiance_Campfire_Loop_Stereo" ID="{16162604-6F84-4097-8592-8338FBAA42D7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Bow Release (Bow and Arrow) 2" ID="{DC9E5F84-A8DC-457B-83E5-8A95741823DA}" ShortID="650574844">
+								<Sound Name="torch ambience loop" ID="{D6860FAB-A297-425F-A987-FA26FD16FCFA}" ShortID="597643993">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -240,120 +261,35 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Bow Release (Bow and Arrow) 2" ID="{CCE29B0A-A2B8-4DF0-9533-F77EDA2428AF}">
+										<AudioFileSource Name="torch ambience loop" ID="{69A10F50-BB3E-4CAB-AA8F-6B3A932FFDB4}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00571895424836601"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.00653594771241831"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0866013071895425"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.191176470588236"/>
+												<Property Name="TrimEnd" Type="Real64" Value="36.4425239651421"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 2.wav</AudioFile>
+											<AudioFile>torch ambience loop.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="994880006"/>
+												<MediaID ID="675511616"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Bow Release (Bow and Arrow) 2" ID="{CCE29B0A-A2B8-4DF0-9533-F77EDA2428AF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Bow Release (Bow and Arrow) 4" ID="{185B93DA-2BF6-4432-9CC5-98BFAB84F2CD}" ShortID="847012812">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Bow Release (Bow and Arrow) 4" ID="{6FDC12C2-1138-4651-B40C-C1F5C8F6CFA4}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0177693299542039"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.021718069944027"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.304052979216378"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.412643328936513"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="681527234"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Bow Release (Bow and Arrow) 4" ID="{6FDC12C2-1138-4651-B40C-C1F5C8F6CFA4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Bow Release (Bow and Arrow) 3" ID="{EB9E6B8B-603E-4DD9-931A-C36331C4A423}" ShortID="762752009">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Bow Release (Bow and Arrow) 3" ID="{69F60CAD-B43A-4E54-A782-E295D8D52294}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00762527233115468"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0206971677559913"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0620915032679739"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.160130718954248"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="139147983"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Bow Release (Bow and Arrow) 3" ID="{69F60CAD-B43A-4E54-A782-E295D8D52294}" Platform="Linked"/>
+										<ActiveSource Name="torch ambience loop" ID="{69A10F50-BB3E-4CAB-AA8F-6B3A932FFDB4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Fire" ID="{6BE0C1F5-1A33-41A0-B326-B84AF11FEE97}" ShortID="276795176">
-					<ChildrenList>
-						<Sound Name="Ambiance_Campfire_Loop_Stereo" ID="{0DE8DFE3-702B-46DF-A26B-DB26CB20D1F0}" ShortID="852295152">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Ambiance_Campfire_Loop_Stereo" ID="{16162604-6F84-4097-8592-8338FBAA42D7}">
-									<Language>SFX</Language>
-									<AudioFile>Soundeffects\Fire\Ambiance_Campfire_Loop_Stereo.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="116826361"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ambiance_Campfire_Loop_Stereo" ID="{16162604-6F84-4097-8592-8338FBAA42D7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Rocks" ID="{B2D4AFF4-162C-45D7-8223-2E9F2AA92B92}" ShortID="250974101">
 					<ChildrenList>
-						<Sound Name="Falling Rock(2)" ID="{3FA5D30E-8B7E-499E-B833-BED33E816B7A}" ShortID="377803286">
+						<RandomSequenceContainer Name="Rocks" ID="{493E7ADF-F4AE-48D7-9F4C-B8FA0A8631F5}" ShortID="93989162">
 							<PropertyList>
-								<Property Name="OutputBusVolume" Type="Real64">
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-23</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -366,57 +302,113 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Falling Rock(2)" ID="{14EC430F-551B-462A-8E92-034120BFFB70}">
+								<Sound Name="Falling Rock" ID="{AE261C58-3BD5-49C9-8DB4-491E672DBF3F}" ShortID="781147393">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.166767694732214"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.21961661207693"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Soundeffects\Rocks\Falling Rock(2).wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="677135480"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Falling Rock(2)" ID="{14EC430F-551B-462A-8E92-034120BFFB70}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Falling Rock" ID="{AE261C58-3BD5-49C9-8DB4-491E672DBF3F}" ShortID="781147393">
-							<PropertyList>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>-20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Falling Rock" ID="{341CE25C-DA01-415E-A559-5FC5D1E71D3A}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Falling Rock" ID="{341CE25C-DA01-415E-A559-5FC5D1E71D3A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.246002055143045"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.443140688374115"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.778444859425252"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Rocks\Falling Rock.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546427500"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Falling Rock" ID="{341CE25C-DA01-415E-A559-5FC5D1E71D3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Falling Rock(2)" ID="{3FA5D30E-8B7E-499E-B833-BED33E816B7A}" ShortID="377803286">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.246002055143045"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.443140688374115"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Soundeffects\Rocks\Falling Rock.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="546427500"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Falling Rock(2)" ID="{14EC430F-551B-462A-8E92-034120BFFB70}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.166767694732214"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.21961661207693"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.668245199314293"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Rocks\Falling Rock(2).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="677135480"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Falling Rock(2)" ID="{14EC430F-551B-462A-8E92-034120BFFB70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Falling Rock_01" ID="{59A7D5E4-4B7B-499D-B9FA-48DC4E09C5CB}" ShortID="137023912">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Falling Rock" ID="{CFE55952-3ED1-44B8-B70E-65582BB42509}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.246002055143045"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.443140688374115"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.00928240431975"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Rocks\Falling Rock.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="320374821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Falling Rock" ID="{CFE55952-3ED1-44B8-B70E-65582BB42509}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Falling Rock" ID="{341CE25C-DA01-415E-A559-5FC5D1E71D3A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Click" ID="{6D976947-9A95-4A98-AB6E-5F3394A81B7A}" ShortID="807161239">
@@ -445,6 +437,550 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Bow Release" ID="{95753D49-A9B9-4D6D-A576-616D3E09587D}" ShortID="184870582">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bow Release (Bow and Arrow) 1" ID="{9205FF5A-02A3-4E80-838E-0610E7975EC6}" ShortID="483752288">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bow Release (Bow and Arrow) 1" ID="{6BEDF0C8-4A25-466F-B71B-69B323C6BE3F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00735294117647059"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0106209150326798"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.197712418300654"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.323529411764706"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="797709539"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bow Release (Bow and Arrow) 1" ID="{6BEDF0C8-4A25-466F-B71B-69B323C6BE3F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bow Release (Bow and Arrow) 2" ID="{DC9E5F84-A8DC-457B-83E5-8A95741823DA}" ShortID="650574844">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bow Release (Bow and Arrow) 2" ID="{CCE29B0A-A2B8-4DF0-9533-F77EDA2428AF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00571895424836601"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00653594771241831"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0866013071895425"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.191176470588236"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994880006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bow Release (Bow and Arrow) 2" ID="{CCE29B0A-A2B8-4DF0-9533-F77EDA2428AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bow Release (Bow and Arrow) 4" ID="{185B93DA-2BF6-4432-9CC5-98BFAB84F2CD}" ShortID="847012812">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bow Release (Bow and Arrow) 4" ID="{6FDC12C2-1138-4651-B40C-C1F5C8F6CFA4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0177693299542039"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.021718069944027"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.304052979216378"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.412643328936513"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="681527234"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bow Release (Bow and Arrow) 4" ID="{6FDC12C2-1138-4651-B40C-C1F5C8F6CFA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bow Release (Bow and Arrow) 3" ID="{EB9E6B8B-603E-4DD9-931A-C36331C4A423}" ShortID="762752009">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bow Release (Bow and Arrow) 3" ID="{69F60CAD-B43A-4E54-A782-E295D8D52294}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00762527233115468"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0206971677559913"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0620915032679739"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.160130718954248"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="139147983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bow Release (Bow and Arrow) 3" ID="{69F60CAD-B43A-4E54-A782-E295D8D52294}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Arrow Impact 2" ID="{A8D40FE0-9627-47F3-87B3-5DB316E4CCCD}" ShortID="74826236">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Arrow Impact 2" ID="{0EF1DA56-4540-44F7-9E5A-5A45F6993277}">
+							<Language>SFX</Language>
+							<AudioFile>Soundeffects\Crossbow\Arrow Impact 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="359756904"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Arrow Impact 2" ID="{0EF1DA56-4540-44F7-9E5A-5A45F6993277}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Grabbable" ID="{50C42EBC-F83F-49FB-9CF4-244311F2A7C9}" ShortID="916013395">
+					<ChildrenList>
+						<RandomSequenceContainer Name="pickup" ID="{977B3C05-8A85-4538-8B2B-AB53A2009207}" ShortID="26383704">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="pickup_1" ID="{F158FF61-1297-49BE-AB65-37BF9D4911B2}" ShortID="1053988712">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Click_pickUp" ID="{A09083D0-F527-4EB6-B8EB-BAA685CFAB94}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0119948030137981"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.4056424291939"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.523409586056645"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Click_pickUp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048755040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Click_pickUp" ID="{A09083D0-F527-4EB6-B8EB-BAA685CFAB94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pickup_2" ID="{72436FE7-6322-414D-AEBB-2F220371F281}" ShortID="597910305">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Falling Object - 2" ID="{F3361DBA-8C91-4755-A030-A204937E035D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0111135812349631"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.10085574970729"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.214492117834788"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundeffects\Falling Object - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963339296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Falling Object - 2" ID="{F3361DBA-8C91-4755-A030-A204937E035D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="drop" ID="{5F074D98-EF53-4BE8-8BA2-C54008B93462}" ShortID="1025089061">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stone_dropping_1" ID="{ECB009C4-9557-4E50-88A4-FF8A5BF51C15}" ShortID="715041755">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stone_dropping_1" ID="{B939D864-AA1A-4719-B2DF-E0C19E512693}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.04502956738251"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Stone_dropping_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006051569"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stone_dropping_1" ID="{B939D864-AA1A-4719-B2DF-E0C19E512693}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stone_dropping_2" ID="{9DC1F675-CA9E-499D-94F7-82E415438E0D}" ShortID="354637195">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stone_dropping_2" ID="{111B793A-F1AC-465E-B469-C6DF7CEE8BF1}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.585610169993923"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Stone_dropping_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62915740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stone_dropping_2" ID="{111B793A-F1AC-465E-B469-C6DF7CEE8BF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stone_dropping_3" ID="{65B97502-8CC2-48FF-A31E-A72DB7D7C045}" ShortID="590969742">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stone_dropping_3" ID="{86AAA7AF-AC31-422A-892C-12225ABB89EE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.616303558460421"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Stone_dropping_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156229623"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stone_dropping_3" ID="{86AAA7AF-AC31-422A-892C-12225ABB89EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stone_dropping_4" ID="{7F00D5BA-5043-4D18-930E-7CB6E727F452}" ShortID="1065819952">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stone_dropping_4" ID="{99EFC208-92E5-4019-9C37-FE48B4848273}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.67287855883094"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Stone_dropping_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685665450"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stone_dropping_4" ID="{99EFC208-92E5-4019-9C37-FE48B4848273}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Deep wooshing" ID="{AFC30FB8-427A-42A4-9C35-1AEDF6546FFC}" ShortID="688322781">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-29</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Deep wooshing" ID="{549E943B-5B30-405F-86F5-D6A3F6D83BFC}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0181437908496732"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0181437908496732"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0351535947712418"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.505191176470588"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Deep wooshing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="162547366"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Deep wooshing" ID="{549E943B-5B30-405F-86F5-D6A3F6D83BFC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="victory" ID="{FFCFA9CF-9710-4670-B812-B0A9DE8A33C6}" ShortID="579290322">
+					<ChildrenList>
+						<Sound Name="magic_game_win_success" ID="{B18FF955-67F5-497A-A587-BBBF8DE6B879}" ShortID="141221863">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="magic_game_win_success" ID="{EEE33CE9-A513-4DAA-9810-84673754B90F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.854716849702845"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>victory\magic_game_win_success.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="93492112"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="magic_game_win_success" ID="{EEE33CE9-A513-4DAA-9810-84673754B90F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="success_bell" ID="{E8ECD064-3181-4B4E-9F7D-8F8CA051E395}" ShortID="530908244">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="success_bell" ID="{E6F633B2-8491-4DAD-A4F3-2136093692F3}">
+									<Language>SFX</Language>
+									<AudioFile>victory\success_bell.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33470170"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="success_bell" ID="{E6F633B2-8491-4DAD-A4F3-2136093692F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Victory (short sting)" ID="{78DA4200-F74A-44E8-A565-7606C39A9A37}" ShortID="1010804371">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Victory (short sting)" ID="{215A4F55-5D21-4ADA-A314-09FC01100DD7}">
+									<Language>SFX</Language>
+									<AudioFile>victory\Victory (short sting).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="416420184"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Victory (short sting)" ID="{215A4F55-5D21-4ADA-A314-09FC01100DD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="VoiceOver" ID="{0B72DABD-3D60-4460-9F74-699DC7606147}" ShortID="997514376"/>
+				<Sound Name="Insert into socket" ID="{5D02D1A8-50C6-49CF-A11A-C60998BBF870}" ShortID="27558763">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Insert into socket" ID="{EA485CD5-18ED-486C-8FE1-28917813DFB7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0151384998443822"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0194637855142057"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Insert into socket.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="728367207"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Insert into socket" ID="{EA485CD5-18ED-486C-8FE1-28917813DFB7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

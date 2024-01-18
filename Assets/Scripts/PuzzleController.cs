@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -13,6 +14,9 @@ public class PuzzleController : MonoBehaviour
     [SerializeField] private XRSocketInteractor Piece3;
     [SerializeField] private XRSocketInteractor Piece4;
 
+    [SerializeField] private GameObject tomblight;
+    
+    private bool alreadyTriggered = false;
     private int piecesCorrect = 0;
     // Start is called before the first frame update
     void Start()
@@ -47,12 +51,17 @@ public class PuzzleController : MonoBehaviour
         
     }
 
-    private void OnSocketFilled(SelectEnterEventArgs args)
+    private async void OnSocketFilled(SelectEnterEventArgs args)
     {
         piecesCorrect++;
-        if (piecesCorrect == 4)
+        if (piecesCorrect == 4 && !alreadyTriggered)
         {
+            AkSoundEngine.PostEvent("Play_success", gameObject);
+            await Task.Delay(750);
             PlayAnimation();
+            tomblight.SetActive(true);
+            AkSoundEngine.PostEvent("Play_door", gameObject);
+            alreadyTriggered = true;
         }
     }
 

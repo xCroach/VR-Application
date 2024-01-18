@@ -8,12 +8,11 @@ public class WallAnimation : MonoBehaviour
 {
 
     [SerializeField] private Animator animator;
-    [SerializeField] private XRGrabInteractable leverGrab;
     [SerializeField] private HingeJoint leverJoint;
-    [SerializeField] private AudioSource doorSound;
-    [SerializeField] private AudioSource leverSound;
 
     [SerializeField] private GameObject dropzones;
+    
+    private bool alreadyTriggered = false;
     
     // Start is called before the first frame update
     void Start()
@@ -23,9 +22,12 @@ public class WallAnimation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (leverJoint.angle <= -60)
+        if (leverJoint.angle <= -60 && !alreadyTriggered)
         {
             PlayAnimation();
+            AkSoundEngine.PostEvent("Play_lever", gameObject);
+            AkSoundEngine.PostEvent("Play_door", gameObject);
+            alreadyTriggered = true;
         }
     }
     private void PlayAnimation()
