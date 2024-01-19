@@ -13,10 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENT = 1562304622U;
         static const AkUniqueID PLAY_BOW = 2992543902U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_DROP = 2007351433U;
         static const AkUniqueID PLAY_FIRE = 3015324718U;
+        static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LEVER = 3196500978U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
@@ -35,11 +37,33 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BACKGROUND = 3650723969U;
+                static const AkUniqueID FINISH = 2555741448U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace ROOMS
+        {
+            static const AkUniqueID GROUP = 1359360203U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ROOM_01 = 3399879614U;
+                static const AkUniqueID ROOM_02 = 3399879613U;
+                static const AkUniqueID ROOM_03 = 3399879612U;
+            } // namespace SWITCH
+        } // namespace ROOMS
+
+    } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SPEED = 640949982U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
@@ -51,6 +75,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID EFFECT = 2161712798U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

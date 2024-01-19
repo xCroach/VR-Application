@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 020acee4996aac4e9baef3af25bd0da7
     GuidInternal: 
-    m_lastTime: -8584992216676997965
+    m_lastTime: -8584959433241208499
     List:
+    - name: effect
+      guid: cce77eb7824186479e6a1d0cc43ebc2a
+      id: 2161712798
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 020acee4996aac4e9baef3af25bd0da7
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: effect
+        ObjectType: 1
+        guid: cce77eb7824186479e6a1d0cc43ebc2a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\effect
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d7fba2d38fe7434ba59d3c1202048afa
     GuidInternal: 
-    m_lastTime: -8584960045626430460
+    m_lastTime: -8584959424536208695
     List:
     - name: EscapeRoom
       guid: ec09ca5d878e6641bd543adee1b5a4fc
@@ -94,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584960049617610242
+    m_lastTime: -8584959423023509388
     List:
     - name: Ambient
       guid: 07b894b315f98248a1e755dd3fb9b229
@@ -110,6 +127,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 07b894b315f98248a1e755dd3fb9b229
       Path: Events\Default Work Unit\Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bow
+      guid: 745e767485691e4aad02d463eddbc007
+      id: 546945295
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Bow
+        ObjectType: 4
+        guid: 745e767485691e4aad02d463eddbc007
+      Path: Events\Default Work Unit\Bow
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -130,6 +164,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_ambient
+      guid: 3ecd04fe2c98a7498da3731e1d593f0f
+      id: 1562304622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 07b894b315f98248a1e755dd3fb9b229
+      - ElementName: Play_ambient
+        ObjectType: 3
+        guid: 3ecd04fe2c98a7498da3731e1d593f0f
+      Path: Events\Default Work Unit\Ambient\Play_ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_bow
       guid: ca9582b2fc189a4d95d5cd905bdc221d
       id: 2992543902
@@ -140,10 +194,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Bow
+        ObjectType: 4
+        guid: 745e767485691e4aad02d463eddbc007
       - ElementName: Play_bow
         ObjectType: 3
         guid: ca9582b2fc189a4d95d5cd905bdc221d
-      Path: Events\Default Work Unit\Play_bow
+      Path: Events\Default Work Unit\Bow\Play_bow
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -201,6 +258,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: e56f7f3d2c13f045ad060f7eaeb2dc51
       Path: Events\Default Work Unit\Ambient\Play_fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_hit
+      guid: 2128ae092cd21e45bc5407be23b0add6
+      id: 2960666077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Bow
+        ObjectType: 4
+        guid: 745e767485691e4aad02d463eddbc007
+      - ElementName: Play_hit
+        ObjectType: 3
+        guid: 2128ae092cd21e45bc5407be23b0add6
+      Path: Events\Default Work Unit\Bow\Play_hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -344,8 +421,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d0106df5d725aa4bae361c5e871174c0
     GuidInternal: 
-    m_lastTime: -8584992216676220050
-    List: []
+    m_lastTime: -8584959483945548830
+    List:
+    - name: speed
+      guid: 6eec95ffd0e56f478292c45c2c0d78e8
+      id: 640949982
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d0106df5d725aa4bae361c5e871174c0
+      - ElementName: speed
+        ObjectType: 13
+        guid: 6eec95ffd0e56f478292c45c2c0d78e8
+      Path: Game Parameters\Default Work Unit\speed
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -358,7 +449,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dae3dd8cb8b7094cbb77257162abfc02
     GuidInternal: 
-    m_lastTime: -8584984422468599894
+    m_lastTime: -8584959483945564402
     List:
     - name: music
       guid: 6ad725644220b446a3fc234304842283
@@ -391,6 +482,22 @@ MonoBehaviour:
         - ElementName: background
           ObjectType: 8
           guid: 991d7f9f90e73242ad3fa453bee4499e
+      - name: finish
+        guid: 5531caa77479d54f9b4746cf7c2b1c42
+        id: 2555741448
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dae3dd8cb8b7094cbb77257162abfc02
+        - ElementName: music
+          ObjectType: 9
+          guid: 6ad725644220b446a3fc234304842283
+        - ElementName: finish
+          ObjectType: 8
+          guid: 5531caa77479d54f9b4746cf7c2b1c42
       - name: None
         guid: 451a97323bfce34ca5d4176024f50fc9
         id: 748895195
@@ -422,8 +529,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 75924752143fb7419212b044d8371557
     GuidInternal: 
-    m_lastTime: -8584992216677312733
-    List: []
+    m_lastTime: -8584959483945533804
+    List:
+    - name: Rooms
+      guid: 6ccb836ae388904e95ac0b2a49ccf3f5
+      id: 1359360203
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75924752143fb7419212b044d8371557
+      - ElementName: Rooms
+        ObjectType: 11
+        guid: 6ccb836ae388904e95ac0b2a49ccf3f5
+      Path: Switches\Default Work Unit\Rooms
+      values:
+      - name: Room_01
+        guid: 6c0c50261b4c954bbda1061957f70d58
+        id: 3399879614
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 75924752143fb7419212b044d8371557
+        - ElementName: Rooms
+          ObjectType: 11
+          guid: 6ccb836ae388904e95ac0b2a49ccf3f5
+        - ElementName: Room_01
+          ObjectType: 10
+          guid: 6c0c50261b4c954bbda1061957f70d58
+      - name: Room_02
+        guid: 6e3ca4233249664e8b78bc35cc3c4f13
+        id: 3399879613
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 75924752143fb7419212b044d8371557
+        - ElementName: Rooms
+          ObjectType: 11
+          guid: 6ccb836ae388904e95ac0b2a49ccf3f5
+        - ElementName: Room_02
+          ObjectType: 10
+          guid: 6e3ca4233249664e8b78bc35cc3c4f13
+      - name: Room_03
+        guid: 597e907291372a449084f73bdbcff79e
+        id: 3399879612
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 75924752143fb7419212b044d8371557
+        - ElementName: Rooms
+          ObjectType: 11
+          guid: 6ccb836ae388904e95ac0b2a49ccf3f5
+        - ElementName: Room_03
+          ObjectType: 10
+          guid: 597e907291372a449084f73bdbcff79e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -438,7 +611,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584992216676818453
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000006000000070000000c0000000d0000000e000000
+  ExpandedFileSystemItemIds: 01000000020000000300000006000000070000000c0000000d0000000e000000130000001400000015000000220000002300000024000000
   ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

@@ -13,6 +13,157 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
+						<SwitchContainer Name="Rooms" ID="{9EF1AC24-1D41-4A46-AD88-D589DDCB2CBD}" ShortID="116441839">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Room_01" ID="{26500C6C-4C1B-4B95-BDA1-061957F70D58}" WorkUnitID="{52479275-3F14-41B7-9212-B044D8371557}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Rooms" ID="{6A83CB6C-88E3-4E90-95AC-0B2A49CCF3F5}" WorkUnitID="{52479275-3F14-41B7-9212-B044D8371557}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="wind" ID="{C97F94CF-A322-4980-A295-2B39D9875B60}" ShortID="925919873">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Soundseed Air Wind" ID="{20FFBB62-EA33-4BED-A235-B7B0C18604AF}" ShortID="1001356202" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+											<PropertyList>
+												<Property Name="AverageVelocity" Type="Real32" Value="-1010"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<PluginData/>
+											<PluginInnerObjectList>
+												<List Name="Deflectors">
+													<PluginInnerObject Name="" ID="{0D72CA6C-D68A-46AA-986F-EE5984C26603}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+												</List>
+											</PluginInnerObjectList>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Soundseed Air Wind" ID="{20FFBB62-EA33-4BED-A235-B7B0C18604AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shadow King Temple" ID="{908AC9EB-2192-4ABA-A887-F8DC6C32B99B}" ShortID="882721971">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shadow King Temple" ID="{9B387C38-487F-486A-BBA5-5D87265FEEC2}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.85185185185185"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.40740740740741"/>
+												<Property Name="LoopEnd" Type="Real64" Value="84.3518518518519"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.31481481481481"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shadow King Temple.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447210928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shadow King Temple" ID="{9B387C38-487F-486A-BBA5-5D87265FEEC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}" ShortID="798224705">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bird chirps" ID="{13FD5985-1ED2-4B7C-B964-77D98A9259CE}">
+											<Language>SFX</Language>
+											<AudioFile>bird chirps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="981470882"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bird chirps" ID="{13FD5985-1ED2-4B7C-B964-77D98A9259CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="wind" ID="{C97F94CF-A322-4980-A295-2B39D9875B60}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Shadow King Temple" ID="{908AC9EB-2192-4ABA-A887-F8DC6C32B99B}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Room_03" ID="{72907E59-3791-442A-9084-F73BDBCFF79E}"/>
+										<ItemList>
+											<ItemRef Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Room_02" ID="{23A43C6E-4932-4E66-8B78-BC35CC3C4F13}"/>
+										<ItemList>
+											<ItemRef Name="wind" ID="{C97F94CF-A322-4980-A295-2B39D9875B60}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 						<RandomSequenceContainer Name="Game_Start" ID="{77B880AB-BE49-4E8C-BC0A-6AC6F936EC63}" ShortID="295067540">
 							<PropertyList>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -27,7 +178,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}" ShortID="1052144738">
+								<Sound Name="Lost Temple Ruins_01" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}" ShortID="1052144738">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
@@ -35,6 +186,7 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-30</Value>
@@ -44,6 +196,9 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
@@ -111,7 +266,7 @@
 							</ChildrenList>
 							<Playlist>
 								<ItemRef Name="Voiceover_Start_01" ID="{C55F9FC5-D3F3-47CB-8BBE-99A7EDB35C7F}"/>
-								<ItemRef Name="Lost Temple Ruins" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}"/>
+								<ItemRef Name="Lost Temple Ruins_01" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}"/>
 							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
@@ -569,6 +724,14 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="Arrow Impact 2" ID="{A8D40FE0-9627-47F3-87B3-5DB316E4CCCD}" ShortID="74826236">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
@@ -579,6 +742,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Arrow Impact 2" ID="{0EF1DA56-4540-44F7-9E5A-5A45F6993277}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0204242190703442"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0445247975733503"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0731187042718322"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.229976706732076"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Soundeffects\Crossbow\Arrow Impact 2.wav</AudioFile>
 							<MediaIDList>
@@ -884,7 +1054,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="magic_game_win_success" ID="{EEE33CE9-A513-4DAA-9810-84673754B90F}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.109324248217806"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="0.854716849702845"/>
 									</PropertyList>
@@ -943,9 +1113,52 @@
 								<ActiveSource Name="Victory (short sting)" ID="{215A4F55-5D21-4ADA-A314-09FC01100DD7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Level win" ID="{5CC98F39-482E-4C01-9416-FF64FD28A508}" ShortID="491380049">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Level win" ID="{E8758A61-26BB-4255-9C43-9C5915E2F876}">
+									<Language>SFX</Language>
+									<AudioFile>Level win.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="291377666"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Level win" ID="{E8758A61-26BB-4255-9C43-9C5915E2F876}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}" ShortID="1068045313">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}">
+									<Language>SFX</Language>
+									<AudioFile>You've succeeded (game jingle).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="19346776"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="VoiceOver" ID="{0B72DABD-3D60-4460-9F74-699DC7606147}" ShortID="997514376"/>
 				<Sound Name="Insert into socket" ID="{5D02D1A8-50C6-49CF-A11A-C60998BBF870}" ShortID="27558763">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>

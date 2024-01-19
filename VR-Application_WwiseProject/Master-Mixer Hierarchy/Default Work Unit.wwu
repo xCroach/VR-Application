@@ -9,6 +9,15 @@
 							<ObjectRef Name="System" ID="{EDD1A207-68F9-41D2-BF60-1DFE30E07518}" WorkUnitID="{7A19F278-4E7A-448A-ACE0-D9A1C572DAE2}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="effect" ID="{B77EE7CC-4182-4786-9E6A-1D0CC43EBC2A}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Small_Tiled_Room1" ID="{41EEE722-3009-4B3F-8820-F414623783E3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -16,6 +16,7 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         hit = true;
+        AkSoundEngine.PostEvent("Play_hit", gameObject);
         target.GetComponent<MeshRenderer>().material = newMaterial;
     }
 

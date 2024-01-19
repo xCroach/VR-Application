@@ -6,32 +6,42 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/DoubleWallAnimation/Wallmove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/DoubleWallAnimation/Wallmove.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/Falling Object - 2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/Falling Object - 2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/LeverSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/LeverSound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/Teleportation 06.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/Teleportation 06.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/door-stone.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Soundeffects/door-stone.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brickwall_Sound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brickwall_Sound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dropzone_sound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dropzone_sound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaySound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaySound.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropzoneTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DropzoneTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FireArrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FireArrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PuzzleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PuzzleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TargetHitDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TargetHitDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Target.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Teleport_sound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Teleport_sound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Effects/Factory Effects.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Effects/Factory Effects.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Events/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Events/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Game Parameters/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Game Parameters/Default Work Unit.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.bnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/PluginInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/PluginInfo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.bnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/PluginInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/PluginInfo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Master-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Master-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/SoundBanks/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/SoundBanks/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/States/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/States/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Switches/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Switches/Default Work Unit.wwu" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +217,7 @@
       <workItem from="1705575997554" duration="618000" />
       <workItem from="1705576976353" duration="8435000" />
       <workItem from="1705596228727" duration="5452000" />
+      <workItem from="1705655899179" duration="2450000" />
     </task>
     <servers />
   </component>

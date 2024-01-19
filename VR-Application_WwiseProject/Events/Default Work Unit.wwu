@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E4E7918D-D2A0-422D-9F5F-A91BE1B64E54}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_bow" ID="{B28295CA-18FC-4D9A-95D5-CD905BDC221D}">
-					<ChildrenList>
-						<Action Name="" ID="{DD3D70A2-28B3-48DE-A3DF-663265AB91F7}" ShortID="850340886">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bow Release" ID="{95753D49-A9B9-4D6D-A576-616D3E09587D}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_door" ID="{8DFA3627-3080-4BFF-A702-225CBB3BA7A4}">
 					<ChildrenList>
 						<Action Name="" ID="{73F010A2-BC9F-47CD-9AEC-2ABE459FA787}" ShortID="993610189">
@@ -108,6 +97,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_ambient" ID="{FE04CD3E-982C-49A7-8DA3-731E1D593F0F}">
+							<ChildrenList>
+								<Action Name="" ID="{FFE1588F-B28C-4B71-B672-A0C1659695E7}" ShortID="413029762">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rooms" ID="{9EF1AC24-1D41-4A46-AD88-D589DDCB2CBD}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_success" ID="{CC4D59EB-E856-4168-907D-CD334E7470F2}">
@@ -132,6 +132,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Bow" ID="{74765E74-6985-4A1E-AD02-D463EDDBC007}" ShortID="588874829">
+					<ChildrenList>
+						<Event Name="Play_bow" ID="{B28295CA-18FC-4D9A-95D5-CD905BDC221D}">
+							<ChildrenList>
+								<Action Name="" ID="{DD3D70A2-28B3-48DE-A3DF-663265AB91F7}" ShortID="850340886">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bow Release" ID="{95753D49-A9B9-4D6D-A576-616D3E09587D}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_hit" ID="{09AE2821-D22C-451E-BC54-07BE23B0ADD6}">
+							<ChildrenList>
+								<Action Name="" ID="{C403A2AB-4095-47A1-9EE5-4FCBC07CCC33}" ShortID="439815272">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arrow Impact 2" ID="{A8D40FE0-9627-47F3-87B3-5DB316E4CCCD}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

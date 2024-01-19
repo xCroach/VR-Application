@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<State Name="None" ID="{32971A45-FC3B-4CE3-A5D4-176024F50FC9}"/>
 						<State Name="background" ID="{9F7F1D99-E790-4232-AD3F-A453BEE4499E}"/>
+						<State Name="finish" ID="{A7CA3155-7974-4FD5-9B47-46CF7C2B1C42}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
