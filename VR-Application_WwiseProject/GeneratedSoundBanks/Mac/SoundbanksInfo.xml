@@ -9,12 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{42D70457-F631-5231-949D-7F234DEC467D}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{69ACFBBC-81D7-B9DD-0B3B-5D90206A276A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="992902880" Name="Small_Tiled_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -25,10 +25,10 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="2161712798" Name="effect">
+				<AuxBus Id="348963605" Name="reverb">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="992902880"/>
+							<PluginRef Id="702543456"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{C234D029-5558-AE41-79E8-2395F299533F}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{BB9B7804-4414-5F77-F2B0-4FDC9102C88C}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -64,13 +64,17 @@
 					<Path>Media/4260930.wem</Path>
 					<CachePath>SFX/Soundeffects/Voiceover/Voiceover_Start_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="19346776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>You've succeeded (game jingle).wav</ShortName>
+					<CachePath>SFX/You've succeeded (game jingle)_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="62915740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone_dropping_2.wav</ShortName>
 					<CachePath>SFX/Stone_dropping_2_01E37D61.wem</CachePath>
 				</File>
 				<File Id="93492112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>victory\magic_game_win_success.wav</ShortName>
-					<CachePath>SFX/victory/magic_game_win_success_46B38163.wem</CachePath>
+					<CachePath>SFX/victory/magic_game_win_success_5F5BFC06.wem</CachePath>
 				</File>
 				<File Id="116826361" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Soundeffects\Fire\Ambiance_Campfire_Loop_Stereo.wav</ShortName>
@@ -95,7 +99,7 @@
 				</File>
 				<File Id="359756904" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Crossbow\Arrow Impact 2.wav</ShortName>
-					<CachePath>SFX/Soundeffects/Crossbow/Arrow Impact 2_D5F3414B.wem</CachePath>
+					<CachePath>SFX/Soundeffects/Crossbow/Arrow Impact 2_AE52266D.wem</CachePath>
 				</File>
 				<File Id="406117286" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lost Temple Ruins.wav</ShortName>
@@ -164,13 +168,24 @@
 				<Custom>
 					<Plugin Id="1001356202" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
 				</Custom>
-				<ShareSets>
-					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
-				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="1562304622" Name="Play_ambient">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
+							<MediaRefs>
+								<MediaRef Id="981470882"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879613"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="1001356202"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
 							<MediaRefs>
@@ -229,11 +244,6 @@
 						<MediaRef Id="4260930"/>
 						<MediaRef Id="406117286"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="702543456"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="3860455926" Name="Play_pickup">
 					<MediaRefs>
@@ -263,7 +273,15 @@
 						<MediaRef Id="162547366"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2955987680" Name="Play_win">
+					<MediaRefs>
+						<MediaRef Id="19346776"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="speed"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1359360203" Name="Rooms">
 					<Switches>
@@ -275,5 +293,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA83A905-1385-D4AD-DF1C-F0AC58608591}</FileHash>
+	<FileHash>{8B8C91BA-A089-C379-6FD7-6D9A90931614}</FileHash>
 </SoundBanksInfo>

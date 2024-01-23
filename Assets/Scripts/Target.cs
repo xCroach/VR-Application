@@ -11,11 +11,15 @@ public class Target : MonoBehaviour
     [SerializeField] private Material oldMaterial;
     [SerializeField] private GameObject target;
     public bool hit;
-    
 
     private void OnTriggerEnter(Collider other)
     {
         hit = true;
+        if (other.gameObject.TryGetComponent(out Rigidbody rigidbody))
+        {
+            Debug.Log(rigidbody.velocity.magnitude);
+            AkSoundEngine.SetRTPCValue("speed", rigidbody.velocity.magnitude);
+        }
         AkSoundEngine.PostEvent("Play_hit", gameObject);
         target.GetComponent<MeshRenderer>().material = newMaterial;
     }

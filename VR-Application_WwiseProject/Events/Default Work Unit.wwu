@@ -99,10 +99,31 @@
 						</Event>
 						<Event Name="Play_ambient" ID="{FE04CD3E-982C-49A7-8DA3-731E1D593F0F}">
 							<ChildrenList>
+								<Action Name="" ID="{D838E733-C42C-41F7-80E6-7AF7E346EF5F}" ShortID="91237920">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rooms" ID="{9EF1AC24-1D41-4A46-AD88-D589DDCB2CBD}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{FFE1588F-B28C-4B71-B672-A0C1659695E7}" ShortID="413029762">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Rooms" ID="{9EF1AC24-1D41-4A46-AD88-D589DDCB2CBD}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_win" ID="{BACE66DF-B18E-4007-93C2-CD4AFC85F7FC}">
+							<ChildrenList>
+								<Action Name="" ID="{9602A47E-85C7-47E6-AA93-26173D283BFA}" ShortID="603556040">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

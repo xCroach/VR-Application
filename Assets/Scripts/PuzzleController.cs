@@ -15,6 +15,7 @@ public class PuzzleController : MonoBehaviour
     [SerializeField] private XRSocketInteractor Piece4;
 
     [SerializeField] private GameObject tomblight;
+    [SerializeField] private GameObject finishTrigger;
     
     private bool alreadyTriggered = false;
     private int piecesCorrect = 0;
@@ -62,6 +63,7 @@ public class PuzzleController : MonoBehaviour
             tomblight.SetActive(true);
             AkSoundEngine.PostEvent("Play_door", gameObject);
             alreadyTriggered = true;
+            finishTrigger.SetActive(true);
         }
     }
 

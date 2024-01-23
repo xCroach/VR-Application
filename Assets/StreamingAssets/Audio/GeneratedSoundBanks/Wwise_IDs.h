@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_SOCKET = 2739173997U;
         static const AkUniqueID PLAY_SUCCESS = 3943614907U;
         static const AkUniqueID PLAY_TELEPORT = 3785065891U;
+        static const AkUniqueID PLAY_WIN = 2955987680U;
     } // namespace EVENTS
 
     namespace STATES
@@ -78,7 +79,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID EFFECT = 2161712798U;
+        static const AkUniqueID REVERB = 348963605U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 2b4ed58aa253e4439f50c1f0dfc695f9
     GuidInternal: 
-    m_lastTime: -8584992216676000548
+    m_lastTime: -8584957695046008904
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,25 +38,8 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 020acee4996aac4e9baef3af25bd0da7
     GuidInternal: 
-    m_lastTime: -8584959433241208499
+    m_lastTime: -8584957695045989001
     List:
-    - name: effect
-      guid: cce77eb7824186479e6a1d0cc43ebc2a
-      id: 2161712798
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 020acee4996aac4e9baef3af25bd0da7
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: effect
-        ObjectType: 1
-        guid: cce77eb7824186479e6a1d0cc43ebc2a
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\effect
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: reverb
+      guid: cce77eb7824186479e6a1d0cc43ebc2a
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 020acee4996aac4e9baef3af25bd0da7
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: reverb
+        ObjectType: 1
+        guid: cce77eb7824186479e6a1d0cc43ebc2a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d7fba2d38fe7434ba59d3c1202048afa
     GuidInternal: 
-    m_lastTime: -8584959424536208695
+    m_lastTime: -8584957695046371917
     List:
     - name: EscapeRoom
       guid: ec09ca5d878e6641bd543adee1b5a4fc
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584959423023509388
+    m_lastTime: -8584957695046486786
     List:
     - name: Ambient
       guid: 07b894b315f98248a1e755dd3fb9b229
@@ -409,6 +409,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_win
+      guid: df66ceba8eb1074093c2cd4afc85f7fc
+      id: 2955987680
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: Ambient
+        ObjectType: 4
+        guid: 07b894b315f98248a1e755dd3fb9b229
+      - ElementName: Play_win
+        ObjectType: 3
+        guid: df66ceba8eb1074093c2cd4afc85f7fc
+      Path: Events\Default Work Unit\Ambient\Play_win
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -421,7 +441,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d0106df5d725aa4bae361c5e871174c0
     GuidInternal: 
-    m_lastTime: -8584959483945548830
+    m_lastTime: -8584957695046019086
     List:
     - name: speed
       guid: 6eec95ffd0e56f478292c45c2c0d78e8
@@ -449,7 +469,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dae3dd8cb8b7094cbb77257162abfc02
     GuidInternal: 
-    m_lastTime: -8584959483945564402
+    m_lastTime: -8584957695046332021
     List:
     - name: music
       guid: 6ad725644220b446a3fc234304842283
@@ -529,7 +549,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 75924752143fb7419212b044d8371557
     GuidInternal: 
-    m_lastTime: -8584959483945533804
+    m_lastTime: -8584957695046135584
     List:
     - name: Rooms
       guid: 6ccb836ae388904e95ac0b2a49ccf3f5
@@ -609,9 +629,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 168b8097766662468f09adcff636180d
     GuidInternal: 
-    m_lastTime: -8584992216676818453
+    m_lastTime: -8584957695046165647
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000006000000070000000c0000000d0000000e000000130000001400000015000000220000002300000024000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000006000000070000000c0000000d0000000e0000001300000014000000150000001a0000001b0000001c000000220000002300000024000000
   ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

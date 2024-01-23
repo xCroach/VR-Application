@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74204ad2bd6a5e34898bca7a50e9078f, type: 3}
   m_Name: B77EE7CC-4182-4786-9E6A-1D0CC43EBC2A
   m_EditorClassIdentifier: 
-  objectName: effect
-  id: 2161712798
+  objectName: reverb
+  id: 348963605
   guid: B77EE7CC-4182-4786-9E6A-1D0CC43EBC2A

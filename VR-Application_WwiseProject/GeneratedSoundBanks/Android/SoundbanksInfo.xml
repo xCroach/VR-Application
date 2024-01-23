@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Android</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7B523820-CADA-FBAC-CA7F-2F15F61CE97E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="speed"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2555741448" Name="finish"/>
+						<State Id="3650723969" Name="background"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1359360203" Name="Rooms">
+					<Switches>
+						<Switch Id="3399879612" Name="Room_03"/>
+						<Switch Id="3399879613" Name="Room_02"/>
+						<Switch Id="3399879614" Name="Room_01"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{BB9B7804-4414-5F77-F2B0-4FDC9102C88C}">
+			<ShortName>EscapeRoom</ShortName>
+			<Path>EscapeRoom.bnk</Path>
+			<Media>
+				<File Id="4260930" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Soundeffects\Voiceover\Voiceover_Start_01.wav</ShortName>
+					<Path>Media/4260930.wem</Path>
+					<CachePath>SFX/Soundeffects/Voiceover/Voiceover_Start_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="19346776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>You've succeeded (game jingle).wav</ShortName>
+					<CachePath>SFX/You've succeeded (game jingle)_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="62915740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone_dropping_2.wav</ShortName>
+					<CachePath>SFX/Stone_dropping_2_01E37D61.wem</CachePath>
+				</File>
+				<File Id="93492112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>victory\magic_game_win_success.wav</ShortName>
+					<CachePath>SFX/victory/magic_game_win_success_5F5BFC06.wem</CachePath>
+				</File>
+				<File Id="116826361" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Soundeffects\Fire\Ambiance_Campfire_Loop_Stereo.wav</ShortName>
+					<Path>Media/116826361.wem</Path>
+					<CachePath>SFX/Soundeffects/Fire/Ambiance_Campfire_Loop_Stereo_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="139147983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 3.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 3_9878022A.wem</CachePath>
+				</File>
+				<File Id="156229623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone_dropping_3.wav</ShortName>
+					<CachePath>SFX/Stone_dropping_3_D1C9F58E.wem</CachePath>
+				</File>
+				<File Id="162547366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Deep wooshing.wav</ShortName>
+					<CachePath>SFX/Deep wooshing_77879570.wem</CachePath>
+				</File>
+				<File Id="320374821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Rocks/Falling Rock_621FADED.wem</CachePath>
+				</File>
+				<File Id="359756904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Crossbow\Arrow Impact 2.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Crossbow/Arrow Impact 2_AE52266D.wem</CachePath>
+				</File>
+				<File Id="406117286" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lost Temple Ruins.wav</ShortName>
+					<Path>Media/406117286.wem</Path>
+					<CachePath>SFX/Lost Temple Ruins_2B83B97C.wem</CachePath>
+				</File>
+				<File Id="546427500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Rocks/Falling Rock_CB9B7D1B.wem</CachePath>
+				</File>
+				<File Id="675511616" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>torch ambience loop.wav</ShortName>
+					<Path>Media/675511616.wem</Path>
+					<CachePath>SFX/torch ambience loop_517C24D6.wem</CachePath>
+				</File>
+				<File Id="677135480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Rocks\Falling Rock(2).wav</ShortName>
+					<CachePath>SFX/Soundeffects/Rocks/Falling Rock(2)_2CD6B2D3.wem</CachePath>
+				</File>
+				<File Id="681527234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 4_CB2AD52C.wem</CachePath>
+				</File>
+				<File Id="685665450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone_dropping_4.wav</ShortName>
+					<CachePath>SFX/Stone_dropping_4_97133D6F.wem</CachePath>
+				</File>
+				<File Id="728367207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Insert into socket.wav</ShortName>
+					<CachePath>SFX/Insert into socket_A873073A.wem</CachePath>
+				</File>
+				<File Id="797709539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 1.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 1_C6E1D9D0.wem</CachePath>
+				</File>
+				<File Id="920013172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\door-stone.wav</ShortName>
+					<CachePath>SFX/Soundeffects/door-stone_B4D4A679.wem</CachePath>
+				</File>
+				<File Id="963339296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Falling Object - 2.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Falling Object - 2_7AE0C659.wem</CachePath>
+				</File>
+				<File Id="981470882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bird chirps.wav</ShortName>
+					<CachePath>SFX/bird chirps_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994880006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 2.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 2_CA688A6A.wem</CachePath>
+				</File>
+				<File Id="998216323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\LeverSound.wav</ShortName>
+					<CachePath>SFX/Soundeffects/LeverSound_962192DD.wem</CachePath>
+				</File>
+				<File Id="1006051569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone_dropping_1.wav</ShortName>
+					<CachePath>SFX/Stone_dropping_1_15EDAE21.wem</CachePath>
+				</File>
+				<File Id="1048755040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundeffects\Click_pickUp.wav</ShortName>
+					<CachePath>SFX/Soundeffects/Click_pickUp_1D8C8F27.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1001356202" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1562304622" Name="Play_ambient">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
+							<MediaRefs>
+								<MediaRef Id="981470882"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879613"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="1001356202"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
+							<MediaRefs>
+								<MediaRef Id="981470882"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879613"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="1001356202"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2992543902" Name="Play_bow">
+					<MediaRefs>
+						<MediaRef Id="139147983"/>
+						<MediaRef Id="681527234"/>
+						<MediaRef Id="797709539"/>
+						<MediaRef Id="994880006"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2547633870" Name="Play_door">
+					<MediaRefs>
+						<MediaRef Id="920013172"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2007351433" Name="Play_drop">
+					<MediaRefs>
+						<MediaRef Id="62915740"/>
+						<MediaRef Id="156229623"/>
+						<MediaRef Id="685665450"/>
+						<MediaRef Id="1006051569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3015324718" Name="Play_fire">
+					<MediaRefs>
+						<MediaRef Id="116826361"/>
+						<MediaRef Id="675511616"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2960666077" Name="Play_hit">
+					<MediaRefs>
+						<MediaRef Id="359756904"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3196500978" Name="Play_lever">
+					<MediaRefs>
+						<MediaRef Id="998216323"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_music">
+					<MediaRefs>
+						<MediaRef Id="4260930"/>
+						<MediaRef Id="406117286"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3860455926" Name="Play_pickup">
+					<MediaRefs>
+						<MediaRef Id="963339296"/>
+						<MediaRef Id="1048755040"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2052558220" Name="Play_rocks">
+					<MediaRefs>
+						<MediaRef Id="320374821"/>
+						<MediaRef Id="546427500"/>
+						<MediaRef Id="677135480"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2739173997" Name="Play_socket">
+					<MediaRefs>
+						<MediaRef Id="728367207"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3943614907" Name="Play_success">
+					<MediaRefs>
+						<MediaRef Id="93492112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3785065891" Name="Play_teleport">
+					<MediaRefs>
+						<MediaRef Id="162547366"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2955987680" Name="Play_win">
+					<MediaRefs>
+						<MediaRef Id="19346776"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="speed"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1359360203" Name="Rooms">
+					<Switches>
+						<Switch Id="3399879612" Name="Room_03"/>
+						<Switch Id="3399879613" Name="Room_02"/>
+						<Switch Id="3399879614" Name="Room_01"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5BCCE998-ED52-F9AB-115A-D3B987B832F7}</FileHash>
+</SoundBanksInfo>
