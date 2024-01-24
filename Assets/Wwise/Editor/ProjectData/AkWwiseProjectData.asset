@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 2b4ed58aa253e4439f50c1f0dfc695f9
     GuidInternal: 
-    m_lastTime: -8584957695046008904
+    m_lastTime: -8584976871417572905
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 020acee4996aac4e9baef3af25bd0da7
     GuidInternal: 
-    m_lastTime: -8584957695045989001
+    m_lastTime: -8584955237240491205
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d7fba2d38fe7434ba59d3c1202048afa
     GuidInternal: 
-    m_lastTime: -8584957695046371917
+    m_lastTime: -8584955237240481231
     List:
     - name: EscapeRoom
       guid: ec09ca5d878e6641bd543adee1b5a4fc
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584957695046486786
+    m_lastTime: -8584955237244746045
     List:
     - name: Ambient
       guid: 07b894b315f98248a1e755dd3fb9b229
@@ -441,7 +441,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d0106df5d725aa4bae361c5e871174c0
     GuidInternal: 
-    m_lastTime: -8584957695046019086
+    m_lastTime: -8584959404125760323
     List:
     - name: speed
       guid: 6eec95ffd0e56f478292c45c2c0d78e8
@@ -469,7 +469,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dae3dd8cb8b7094cbb77257162abfc02
     GuidInternal: 
-    m_lastTime: -8584957695046332021
+    m_lastTime: -8584955237240481231
     List:
     - name: music
       guid: 6ad725644220b446a3fc234304842283
@@ -549,7 +549,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 75924752143fb7419212b044d8371557
     GuidInternal: 
-    m_lastTime: -8584957695046135584
+    m_lastTime: -8584959404117412669
     List:
     - name: Rooms
       guid: 6ccb836ae388904e95ac0b2a49ccf3f5
@@ -629,11 +629,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 168b8097766662468f09adcff636180d
     GuidInternal: 
-    m_lastTime: -8584957695046165647
+    m_lastTime: -8584976871417572905
     List: []
-  ExpandedFileSystemItemIds: 01000000030000000400000006000000070000000c0000000d0000000e0000001300000014000000150000001a0000001b0000001c000000220000002300000024000000
-  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000c0000000d0000000e000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 
