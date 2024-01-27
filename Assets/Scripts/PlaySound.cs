@@ -27,6 +27,11 @@ public class PlaySound : MonoBehaviour
     
     private void OnObjectRelease(SelectExitEventArgs args)
     {
+        AkSoundEngine.PostEvent("Play_drop", gameObject);
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
         //AkSoundEngine.PostEvent("Play_drop", gameObject);
     }
 }

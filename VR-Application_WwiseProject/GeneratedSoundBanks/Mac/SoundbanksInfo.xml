@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{BB9B7804-4414-5F77-F2B0-4FDC9102C88C}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{19E10953-5649-8D93-6F06-C3BC4CEE8E89}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -67,10 +67,6 @@
 				<File Id="19346776" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>You've succeeded (game jingle).wav</ShortName>
 					<CachePath>SFX/You've succeeded (game jingle)_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="62915740" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Stone_dropping_2.wav</ShortName>
-					<CachePath>SFX/Stone_dropping_2_01E37D61.wem</CachePath>
 				</File>
 				<File Id="93492112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>victory\magic_game_win_success.wav</ShortName>
@@ -85,13 +81,13 @@
 					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 3.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 3_9878022A.wem</CachePath>
 				</File>
-				<File Id="156229623" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Stone_dropping_3.wav</ShortName>
-					<CachePath>SFX/Stone_dropping_3_D1C9F58E.wem</CachePath>
-				</File>
 				<File Id="162547366" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Deep wooshing.wav</ShortName>
 					<CachePath>SFX/Deep wooshing_77879570.wem</CachePath>
+				</File>
+				<File Id="288835102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone dropping.wav</ShortName>
+					<CachePath>SFX/Stone dropping_59230F32.wem</CachePath>
 				</File>
 				<File Id="320374821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
@@ -106,9 +102,17 @@
 					<Path>Media/406117286.wem</Path>
 					<CachePath>SFX/Lost Temple Ruins_2B83B97C.wem</CachePath>
 				</File>
+				<File Id="457527670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tumbling Rocks.wav</ShortName>
+					<CachePath>SFX/Tumbling Rocks_E28C849F.wem</CachePath>
+				</File>
 				<File Id="546427500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Rocks/Falling Rock_CB9B7D1B.wem</CachePath>
+				</File>
+				<File Id="652667458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tumbling Rocks_2.wav</ShortName>
+					<CachePath>SFX/Tumbling Rocks_2_FF0C51AB.wem</CachePath>
 				</File>
 				<File Id="675511616" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>torch ambience loop.wav</ShortName>
@@ -122,10 +126,6 @@
 				<File Id="681527234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 4_CB2AD52C.wem</CachePath>
-				</File>
-				<File Id="685665450" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Stone_dropping_4.wav</ShortName>
-					<CachePath>SFX/Stone_dropping_4_97133D6F.wem</CachePath>
 				</File>
 				<File Id="728367207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insert into socket.wav</ShortName>
@@ -154,10 +154,6 @@
 				<File Id="998216323" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\LeverSound.wav</ShortName>
 					<CachePath>SFX/Soundeffects/LeverSound_962192DD.wem</CachePath>
-				</File>
-				<File Id="1006051569" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Stone_dropping_1.wav</ShortName>
-					<CachePath>SFX/Stone_dropping_1_15EDAE21.wem</CachePath>
 				</File>
 				<File Id="1048755040" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Click_pickUp.wav</ShortName>
@@ -217,10 +213,9 @@
 				</Event>
 				<Event Id="2007351433" Name="Play_drop">
 					<MediaRefs>
-						<MediaRef Id="62915740"/>
-						<MediaRef Id="156229623"/>
-						<MediaRef Id="685665450"/>
-						<MediaRef Id="1006051569"/>
+						<MediaRef Id="288835102"/>
+						<MediaRef Id="457527670"/>
+						<MediaRef Id="652667458"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3015324718" Name="Play_fire">
@@ -293,5 +288,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8B8C91BA-A089-C379-6FD7-6D9A90931614}</FileHash>
+	<FileHash>{D809228B-7E7C-1BEC-5539-84702711057F}</FileHash>
 </SoundBanksInfo>

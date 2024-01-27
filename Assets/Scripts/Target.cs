@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
+    
     [SerializeField] private Material newMaterial;
     [SerializeField] private Material oldMaterial;
     [SerializeField] private GameObject target;

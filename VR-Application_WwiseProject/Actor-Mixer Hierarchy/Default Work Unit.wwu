@@ -136,6 +136,46 @@
 								<ItemRef Name="Lost Temple Ruins_01" ID="{6C825950-D3A1-43D2-AB45-2FAE5952AF76}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<Sound Name="Jungle Mystic Ambient Mastered" ID="{08A535D1-C86D-443A-A564-A29188ED1B27}" ShortID="545746216">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-43</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jungle Mystic Ambient Mastered" ID="{53B1DD4D-E3F1-404E-8F33-6335681ECB90}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.128848583878"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="99.3836154684096"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Jungle Mystic Ambient Mastered.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="622493828"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jungle Mystic Ambient Mastered" ID="{53B1DD4D-E3F1-404E-8F33-6335681ECB90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<Sound Name="door-stone" ID="{FB5F0E05-A849-4300-9AF3-D62A117E04F7}" ShortID="784089718">
@@ -786,7 +826,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Stone_dropping_1" ID="{ECB009C4-9557-4E50-88A4-FF8A5BF51C15}" ShortID="715041755">
+								<Sound Name="Stone dropping" ID="{9922D093-8FC1-4083-A1A1-99F09F2570C4}" ShortID="608709135">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -803,23 +843,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stone_dropping_1" ID="{B939D864-AA1A-4719-B2DF-E0C19E512693}">
+										<AudioFileSource Name="Stone dropping" ID="{94630A6A-5311-45BE-8002-835F0B167FCA}">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0246166614794066"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.04502956738251"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.388225265414808"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Stone_dropping_1.wav</AudioFile>
+											<AudioFile>Stone dropping.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1006051569"/>
+												<MediaID ID="288835102"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stone_dropping_1" ID="{B939D864-AA1A-4719-B2DF-E0C19E512693}" Platform="Linked"/>
+										<ActiveSource Name="Stone dropping" ID="{94630A6A-5311-45BE-8002-835F0B167FCA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Stone_dropping_2" ID="{9DC1F675-CA9E-499D-94F7-82E415438E0D}" ShortID="354637195">
+								<Sound Name="Tumbling Rocks" ID="{1E7B01CC-1F01-4CFA-8C01-7C094F10B898}" ShortID="119470227">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -836,27 +877,29 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stone_dropping_2" ID="{111B793A-F1AC-465E-B469-C6DF7CEE8BF1}">
+										<AudioFileSource Name="Tumbling Rocks" ID="{8B799B45-B356-4E03-AB05-E63FC1929FC8}">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.156714733115468"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.585610169993923"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.110674246550472"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.630400508351488"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Stone_dropping_2.wav</AudioFile>
+											<AudioFile>Tumbling Rocks.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="62915740"/>
+												<MediaID ID="457527670"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stone_dropping_2" ID="{111B793A-F1AC-465E-B469-C6DF7CEE8BF1}" Platform="Linked"/>
+										<ActiveSource Name="Tumbling Rocks" ID="{8B799B45-B356-4E03-AB05-E63FC1929FC8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Stone_dropping_3" ID="{65B97502-8CC2-48FF-A31E-A72DB7D7C045}" ShortID="590969742">
+								<Sound Name="Tumbling Rocks_2" ID="{1709E27D-1167-4100-970F-F2F4EB382BDD}" ShortID="882408534">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -869,48 +912,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Stone_dropping_3" ID="{86AAA7AF-AC31-422A-892C-12225ABB89EE}">
+										<AudioFileSource Name="Tumbling Rocks_2" ID="{FB796DD7-06D2-424D-87EF-305B55BA0357}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.224634168482208"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.616303558460421"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.112317084241104"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Stone_dropping_3.wav</AudioFile>
+											<AudioFile>Tumbling Rocks_2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="156229623"/>
+												<MediaID ID="652667458"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Stone_dropping_3" ID="{86AAA7AF-AC31-422A-892C-12225ABB89EE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Stone_dropping_4" ID="{7F00D5BA-5043-4D18-930E-7CB6E727F452}" ShortID="1065819952">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Stone_dropping_4" ID="{99EFC208-92E5-4019-9C37-FE48B4848273}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.67287855883094"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Stone_dropping_4.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="685665450"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Stone_dropping_4" ID="{99EFC208-92E5-4019-9C37-FE48B4848273}" Platform="Linked"/>
+										<ActiveSource Name="Tumbling Rocks_2" ID="{FB796DD7-06D2-424D-87EF-305B55BA0357}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

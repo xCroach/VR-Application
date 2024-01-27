@@ -5,9 +5,15 @@ using UnityEngine;
 
 public class Finish_Sound : MonoBehaviour
 {
+    private bool alreadyTriggered = false;
     private void OnTriggerEnter(Collider other)
     {
-        AkSoundEngine.SetState("music", "finish");
-        AkSoundEngine.PostEvent("Play_win", gameObject);
+        if (!alreadyTriggered)
+        {
+            AkSoundEngine.SetState("music", "finish");
+            AkSoundEngine.PostEvent("Play_win", gameObject);
+            alreadyTriggered = true;
+        }
+        
     }
 }
