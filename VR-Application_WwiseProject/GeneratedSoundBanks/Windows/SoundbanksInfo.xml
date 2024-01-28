@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{742A8515-76B7-27BB-DC99-49E1B27487A4}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C447EAF1-24BE-6315-76C8-42AD6DDBF2FA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -41,6 +41,7 @@
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="2555741448" Name="finish"/>
+						<State Id="2607556080" Name="menu"/>
 						<State Id="3650723969" Name="background"/>
 					</States>
 				</StateGroup>
@@ -55,7 +56,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{19E10953-5649-8D93-6F06-C3BC4CEE8E89}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{7CDEE290-A3C8-2719-6680-E3B48366D93F}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -63,6 +64,10 @@
 					<ShortName>Soundeffects\Voiceover\Voiceover_Start_01.wav</ShortName>
 					<Path>Media/4260930.wem</Path>
 					<CachePath>SFX/Soundeffects/Voiceover/Voiceover_Start_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="18783472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 7 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 7 (Single)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="19346776" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>You've succeeded (game jingle).wav</ShortName>
@@ -85,6 +90,10 @@
 					<ShortName>Deep wooshing.wav</ShortName>
 					<CachePath>SFX/Deep wooshing_77879570.wem</CachePath>
 				</File>
+				<File Id="282263689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 6 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 6 (Single)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="288835102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone dropping.wav</ShortName>
 					<CachePath>SFX/Stone dropping_59230F32.wem</CachePath>
@@ -97,6 +106,10 @@
 					<ShortName>Soundeffects\Crossbow\Arrow Impact 2.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Arrow Impact 2_AE52266D.wem</CachePath>
 				</File>
+				<File Id="396555049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 3 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 3 (Single)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="406117286" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lost Temple Ruins.wav</ShortName>
 					<Path>Media/406117286.wem</Path>
@@ -105,6 +118,10 @@
 				<File Id="457527670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tumbling Rocks.wav</ShortName>
 					<CachePath>SFX/Tumbling Rocks_E28C849F.wem</CachePath>
+				</File>
+				<File Id="542011930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 2 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 2 (Single)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="546427500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
@@ -127,6 +144,10 @@
 					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 4_CB2AD52C.wem</CachePath>
 				</File>
+				<File Id="717732546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 5 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 5 (Single)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="728367207" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Insert into socket.wav</ShortName>
 					<CachePath>SFX/Insert into socket_A873073A.wem</CachePath>
@@ -134,6 +155,10 @@
 				<File Id="797709539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 1.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 1_C6E1D9D0.wem</CachePath>
+				</File>
+				<File Id="823748569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 4 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 4 (Single)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="920013172" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\door-stone.wav</ShortName>
@@ -204,6 +229,16 @@
 						<MediaRef Id="681527234"/>
 						<MediaRef Id="797709539"/>
 						<MediaRef Id="994880006"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2099555730" Name="Play_button">
+					<MediaRefs>
+						<MediaRef Id="18783472"/>
+						<MediaRef Id="282263689"/>
+						<MediaRef Id="396555049"/>
+						<MediaRef Id="542011930"/>
+						<MediaRef Id="717732546"/>
+						<MediaRef Id="823748569"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2547633870" Name="Play_door">
@@ -287,6 +322,58 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{0DB17FC9-D92D-7E70-EDDF-DFB4DE7A6C33}">
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<Media>
+				<File Id="18783472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 7 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 7 (Single)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282263689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 6 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 6 (Single)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="396555049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 3 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 3 (Single)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="542011930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 2 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 2 (Single)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="622493828" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Jungle Mystic Ambient Mastered.wav</ShortName>
+					<Path>Media/622493828.wem</Path>
+					<CachePath>SFX/Jungle Mystic Ambient Mastered_926F20D4.wem</CachePath>
+				</File>
+				<File Id="717732546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 5 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 5 (Single)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="823748569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button Clicking 4 (Single).wav</ShortName>
+					<CachePath>SFX/Button Clicking 4 (Single)_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2099555730" Name="Play_button">
+					<MediaRefs>
+						<MediaRef Id="18783472"/>
+						<MediaRef Id="282263689"/>
+						<MediaRef Id="396555049"/>
+						<MediaRef Id="542011930"/>
+						<MediaRef Id="717732546"/>
+						<MediaRef Id="823748569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1278378707" Name="Play_menu">
+					<MediaRefs>
+						<MediaRef Id="622493828"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{075CE5A9-FF53-E523-C29F-13AFF60B7F97}</FileHash>
+	<FileHash>{F36FE32D-D1AF-FD58-4E3F-8D7E3B52B2DB}</FileHash>
 </SoundBanksInfo>

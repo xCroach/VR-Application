@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d7fba2d38fe7434ba59d3c1202048afa
     GuidInternal: 
-    m_lastTime: -8584952136980189162
+    m_lastTime: -8584952080774674834
     List:
     - name: EscapeRoom
       guid: ec09ca5d878e6641bd543adee1b5a4fc
@@ -99,6 +99,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: ec09ca5d878e6641bd543adee1b5a4fc
       Path: SoundBanks\Default Work Unit\EscapeRoom
+    - name: MainMenu
+      guid: 6e617d82b92ff946b19e232370e37f76
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d7fba2d38fe7434ba59d3c1202048afa
+      - ElementName: MainMenu
+        ObjectType: 7
+        guid: 6e617d82b92ff946b19e232370e37f76
+      Path: SoundBanks\Default Work Unit\MainMenu
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -111,7 +125,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584952136980209186
+    m_lastTime: -8584952117849731921
     List:
     - name: Ambient
       guid: 07b894b315f98248a1e755dd3fb9b229
@@ -164,6 +178,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MainMenu
+      guid: d097e4333ed3c541b6b721e95d4ab5b0
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d097e4333ed3c541b6b721e95d4ab5b0
+      Path: Events\Default Work Unit\MainMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_ambient
       guid: 3ecd04fe2c98a7498da3731e1d593f0f
       id: 1562304622
@@ -201,6 +232,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: ca9582b2fc189a4d95d5cd905bdc221d
       Path: Events\Default Work Unit\Bow\Play_bow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_button
+      guid: 8a306eab79c95548afe9ccb9ef033940
+      id: 2099555730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d097e4333ed3c541b6b721e95d4ab5b0
+      - ElementName: Play_button
+        ObjectType: 3
+        guid: 8a306eab79c95548afe9ccb9ef033940
+      Path: Events\Default Work Unit\MainMenu\Play_button
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -299,7 +350,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Play_menu
-      guid: 4379e5e7d16ff845aa423d8b16faee6f
+      guid: 8c6648c2ead53b4eb437903a3d4ad5ff
       id: 1278378707
       PathAndIcons:
       - ElementName: Events
@@ -308,10 +359,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 8d91e7e4a0d22d429f5fa91be1b64e54
+      - ElementName: MainMenu
+        ObjectType: 4
+        guid: d097e4333ed3c541b6b721e95d4ab5b0
       - ElementName: Play_menu
         ObjectType: 3
-        guid: 4379e5e7d16ff845aa423d8b16faee6f
-      Path: Events\Default Work Unit\Play_menu
+        guid: 8c6648c2ead53b4eb437903a3d4ad5ff
+      Path: Events\Default Work Unit\MainMenu\Play_menu
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -486,7 +540,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dae3dd8cb8b7094cbb77257162abfc02
     GuidInternal: 
-    m_lastTime: -8584957695046332021
+    m_lastTime: -8584952106197219284
     List:
     - name: music
       guid: 6ad725644220b446a3fc234304842283
@@ -535,6 +589,22 @@ MonoBehaviour:
         - ElementName: finish
           ObjectType: 8
           guid: 5531caa77479d54f9b4746cf7c2b1c42
+      - name: menu
+        guid: 6d96895f1790404aa798b228c4493b67
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dae3dd8cb8b7094cbb77257162abfc02
+        - ElementName: music
+          ObjectType: 9
+          guid: 6ad725644220b446a3fc234304842283
+        - ElementName: menu
+          ObjectType: 8
+          guid: 6d96895f1790404aa798b228c4493b67
       - name: None
         guid: 451a97323bfce34ca5d4176024f50fc9
         id: 748895195
@@ -649,7 +719,7 @@ MonoBehaviour:
     m_lastTime: -8584957695046165647
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 020000000300000004000000050000000600000007000000080000001000000011000000120000001300000014000000160000001700000018000000
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000a0000001000000011000000120000001300000014000000160000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

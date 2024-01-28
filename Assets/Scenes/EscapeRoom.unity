@@ -1545,7 +1545,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -5157,7 +5157,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -5343,7 +5343,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -11651,7 +11651,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -16477,7 +16477,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -22474,7 +22474,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -22783,7 +22783,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -25351,7 +25351,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -29085,7 +29085,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -30254,7 +30254,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -31274,7 +31274,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -32805,7 +32805,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -38404,7 +38404,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: db973ec624d656747afcc1b442f32f6d,
+    WwiseObjectReference: {fileID: 11400000, guid: db56925bf1f097f4a857b5a4ce06dc2e,
       type: 2}
   useCallbacks: 0
   Callbacks: []

@@ -179,6 +179,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="MainMenu" ID="{33E497D0-D33E-41C5-B6B7-21E95D4AB5B0}" ShortID="324155237">
+					<ChildrenList>
+						<Event Name="Play_menu" ID="{C248668C-D5EA-4E3B-B437-903A3D4AD5FF}">
+							<ChildrenList>
+								<Action Name="" ID="{D2015A71-67A3-44A4-8214-3992F520CF01}" ShortID="377544322">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jungle Mystic Ambient Mastered" ID="{08A535D1-C86D-443A-A564-A29188ED1B27}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_button" ID="{AB6E308A-C979-4855-AFE9-CCB9EF033940}">
+							<ChildrenList>
+								<Action Name="" ID="{886FE607-AA41-4EEF-B8F1-2DA8BA67C61C}" ShortID="623652884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="button_click" ID="{954E71A2-91B7-42D7-8302-612F205BA7F2}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

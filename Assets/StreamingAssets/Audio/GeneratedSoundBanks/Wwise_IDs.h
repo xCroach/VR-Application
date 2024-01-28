@@ -15,11 +15,13 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMBIENT = 1562304622U;
         static const AkUniqueID PLAY_BOW = 2992543902U;
+        static const AkUniqueID PLAY_BUTTON = 2099555730U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_DROP = 2007351433U;
         static const AkUniqueID PLAY_FIRE = 3015324718U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_LEVER = 3196500978U;
+        static const AkUniqueID PLAY_MENU = 1278378707U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_ROCKS = 2052558220U;
@@ -39,6 +41,7 @@ namespace AK
             {
                 static const AkUniqueID BACKGROUND = 3650723969U;
                 static const AkUniqueID FINISH = 2555741448U;
+                static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC
@@ -70,6 +73,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ESCAPEROOM = 1715913297U;
+        static const AkUniqueID MAINMENU = 3604647259U;
     } // namespace BANKS
 
     namespace BUSSES

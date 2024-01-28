@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1562304622	Play_ambient			\Default Work Unit\Ambient\Play_ambient	
 	2007351433	Play_drop			\Default Work Unit\Grabbable\Play_drop	
 	2052558220	Play_rocks			\Default Work Unit\Play_rocks	
+	2099555730	Play_button			\Default Work Unit\MainMenu\Play_button	
 	2547633870	Play_door			\Default Work Unit\Play_door	
 	2739173997	Play_socket			\Default Work Unit\Grabbable\Play_socket	
 	2932040671	Play_music			\Default Work Unit\Ambient\Play_music	
@@ -28,9 +29,11 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	music			
 	2555741448	finish	music			
+	2607556080	menu	music			
 	3650723969	background	music			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	428412327	menu	music	\Actor-Mixer Hierarchy\Default Work Unit\music\Game_Start\Lost Temple Ruins_01		
 	585866314	finish	music	\Actor-Mixer Hierarchy\Default Work Unit\music\Game_Start\Lost Temple Ruins_01		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -40,20 +43,26 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	1001356202	Soundseed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Rooms\wind\Soundseed Air Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18783472	Button Clicking 7 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 7 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 7 (Single)		48098
 	19346776	You've succeeded (game jingle)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\You've succeeded (game jingle)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\victory\You've succeeded (game jingle)		807132
 	93492112	magic_game_win_success	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\victory\magic_game_win_success_5F5BFC06.wem		\Actor-Mixer Hierarchy\Default Work Unit\victory\magic_game_win_success		150868
 	139147983	Bow Release (Bow and Arrow) 3	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Crossbow\Bow Release (Bow and Arrow) 3_9878022A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bow Release\Bow Release (Bow and Arrow) 3		17392
 	162547366	Deep wooshing	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Deep wooshing_77879570.wem		\Actor-Mixer Hierarchy\Default Work Unit\Deep wooshing		90344
+	282263689	Button Clicking 6 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 6 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 6 (Single)		48088
 	288835102	Stone dropping	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Stone dropping_59230F32.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grabbable\drop\Stone dropping		68580
 	320374821	Falling Rock_01	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Rocks\Falling Rock_621FADED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rocks\Rocks\Falling Rock_01		178132
 	359756904	Arrow Impact 2	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Crossbow\Arrow Impact 2_AE52266D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Arrow Impact 2		27764
+	396555049	Button Clicking 3 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 3 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 3 (Single)		48090
 	457527670	Tumbling Rocks	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Tumbling Rocks_E28C849F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grabbable\drop\Tumbling Rocks		99880
+	542011930	Button Clicking 2 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 2 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 2 (Single)		48096
 	546427500	Falling Rock	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Rocks\Falling Rock_CB9B7D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rocks\Rocks\Falling Rock		135632
 	652667458	Tumbling Rocks_2	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Tumbling Rocks_2_FF0C51AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grabbable\drop\Tumbling Rocks_2		193712
 	677135480	Falling Rock(2)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Rocks\Falling Rock(2)_2CD6B2D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rocks\Rocks\Falling Rock(2)		117976
 	681527234	Bow Release (Bow and Arrow) 4	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Crossbow\Bow Release (Bow and Arrow) 4_CB2AD52C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bow Release\Bow Release (Bow and Arrow) 4		19252
+	717732546	Button Clicking 5 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 5 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 5 (Single)		48096
 	728367207	Insert into socket	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Insert into socket_A873073A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insert into socket		39008
 	797709539	Bow Release (Bow and Arrow) 1	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Crossbow\Bow Release (Bow and Arrow) 1_C6E1D9D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bow Release\Bow Release (Bow and Arrow) 1		22292
+	823748569	Button Clicking 4 (Single)	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Button Clicking 4 (Single)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons\button_click\Button Clicking 4 (Single)		48098
 	920013172	door-stone	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\door-stone_B4D4A679.wem		\Actor-Mixer Hierarchy\Default Work Unit\door-stone		309346
 	963339296	pickup_2	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\Soundeffects\Falling Object - 2_7AE0C659.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grabbable\pickup\pickup_2		20140
 	981470882	bird chirps	E:\Studium-GIT\Master\AVR\VR-Application\VR-Application_WwiseProject\.cache\Mac\SFX\bird chirps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rooms\bird chirps		7278376
