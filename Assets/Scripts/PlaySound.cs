@@ -32,6 +32,9 @@ public class PlaySound : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        //AkSoundEngine.PostEvent("Play_drop", gameObject);
+        if (!other.collider.CompareTag("Respawn"))
+        {
+            AkSoundEngine.PostEvent("Play_drop", gameObject);
+        }
     }
 }

@@ -56,7 +56,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{EC527C10-731B-C3D3-B9AA-B22F0A346904}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{6DC3B3E1-81C5-AC2B-AF16-01A4BBF98540}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -77,6 +77,10 @@
 					<ShortName>victory\magic_game_win_success.wav</ShortName>
 					<CachePath>SFX/victory/magic_game_win_success_5F5BFC06.wem</CachePath>
 				</File>
+				<File Id="101363980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Victory_voiceover_01.wav</ShortName>
+					<CachePath>SFX/Victory_voiceover_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="116826361" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Soundeffects\Fire\Ambiance_Campfire_Loop_Stereo.wav</ShortName>
 					<Path>Media/116826361.wem</Path>
@@ -96,7 +100,7 @@
 				</File>
 				<File Id="288835102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone dropping.wav</ShortName>
-					<CachePath>SFX/Stone dropping_59230F32.wem</CachePath>
+					<CachePath>SFX/Stone dropping_1E12DDA6.wem</CachePath>
 				</File>
 				<File Id="320374821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Rocks\Falling Rock.wav</ShortName>
@@ -117,7 +121,7 @@
 				</File>
 				<File Id="457527670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tumbling Rocks.wav</ShortName>
-					<CachePath>SFX/Tumbling Rocks_E28C849F.wem</CachePath>
+					<CachePath>SFX/Tumbling Rocks_E6C0552C.wem</CachePath>
 				</File>
 				<File Id="542011930" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button Clicking 2 (Single).wav</ShortName>
@@ -129,7 +133,7 @@
 				</File>
 				<File Id="652667458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tumbling Rocks_2.wav</ShortName>
-					<CachePath>SFX/Tumbling Rocks_2_FF0C51AB.wem</CachePath>
+					<CachePath>SFX/Tumbling Rocks_2_D7108E81.wem</CachePath>
 				</File>
 				<File Id="675511616" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>torch ambience loop.wav</ShortName>
@@ -306,6 +310,7 @@
 				<Event Id="2955987680" Name="Play_win">
 					<MediaRefs>
 						<MediaRef Id="19346776"/>
+						<MediaRef Id="101363980"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -375,5 +380,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CB8728E3-5478-18D1-988A-09577AA20938}</FileHash>
+	<FileHash>{C78B5932-236E-C6EB-EAD1-0B7D5B977582}</FileHash>
 </SoundBanksInfo>

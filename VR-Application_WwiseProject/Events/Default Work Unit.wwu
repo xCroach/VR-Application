@@ -123,7 +123,7 @@
 								<Action Name="" ID="{9602A47E-85C7-47E6-AA93-26173D283BFA}" ShortID="603556040">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
+											<ObjectRef Name="EndOfGame" ID="{C37F31B8-9364-4E4B-930E-A0EAC6CB9884}" WorkUnitID="{67C3DA71-8205-4E8A-8218-731BEAE74322}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

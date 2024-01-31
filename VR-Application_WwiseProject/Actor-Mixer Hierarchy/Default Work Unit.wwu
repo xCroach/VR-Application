@@ -779,9 +779,9 @@
 						<RandomSequenceContainer Name="drop" ID="{5F074D98-EF53-4BE8-8BA2-C54008B93462}" ShortID="1025089061">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="InitialDelay" Type="Real64">
+								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>0.5</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -815,6 +815,7 @@
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0246166614794066"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00205138845661721"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.388225265414808"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -849,7 +850,7 @@
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.156714733115468"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.110674246550472"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.115101216412491"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.630400508351488"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -884,7 +885,7 @@
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.224634168482208"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.112317084241104"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.151383896151053"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Tumbling Rocks_2.wav</AudioFile>
@@ -1041,16 +1042,10 @@
 								<ActiveSource Name="Level win" ID="{E8758A61-26BB-4255-9C43-9C5915E2F876}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}" ShortID="1068045313">
+						<RandomSequenceContainer Name="EndOfGame" ID="{C37F31B8-9364-4E4B-930E-A0EAC6CB9884}" ShortID="900497745">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
-								<Property Name="LoopCount" Type="int32" Value="3"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-20</Value>
-									</ValueList>
-								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1061,18 +1056,73 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}">
-									<Language>SFX</Language>
-									<AudioFile>You've succeeded (game jingle).wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="19346776"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}" ShortID="1068045313">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}">
+											<Language>SFX</Language>
+											<AudioFile>You've succeeded (game jingle).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="19346776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Victory_voiceover_01" ID="{4ED0CAB4-77DF-4350-B33E-BBF9FDA0E716}" ShortID="478560480">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E796A9-F1F7-4489-8AA6-6BDB2CA9B279}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4CE0A02-6A99-4EAC-9BAE-F3AF25BD0DA7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Victory_voiceover_01" ID="{580E287C-44C5-4DC3-9606-E90EDB0083F7}">
+											<Language>SFX</Language>
+											<AudioFile>Victory_voiceover_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101363980"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Victory_voiceover_01" ID="{580E287C-44C5-4DC3-9606-E90EDB0083F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="You've succeeded (game jingle)" ID="{00E76A8D-388C-450C-91A5-7192142A5233}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+							<Playlist>
+								<ItemRef Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}"/>
+								<ItemRef Name="Victory_voiceover_01" ID="{4ED0CAB4-77DF-4350-B33E-BBF9FDA0E716}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="Insert into socket" ID="{5D02D1A8-50C6-49CF-A11A-C60998BBF870}" ShortID="27558763">
