@@ -8,6 +8,7 @@ public class ButtonNavigation : MonoBehaviour
 {
     [SerializeField] private GameObject menu;
     [SerializeField] private GameObject how;
+    [SerializeField] private GameObject credits;
     public void StartGame()
     {
         SceneManager.LoadSceneAsync("EscapeRoom");
@@ -27,6 +28,13 @@ public class ButtonNavigation : MonoBehaviour
         menu.SetActive(false);
         how.SetActive(true);
     }
+    
+    public void Credits()
+    {
+        AkSoundEngine.PostEvent("Play_button", gameObject);
+        menu.SetActive(false);
+        credits.SetActive(true);
+    }
 
     public void QuitGame()
     {
@@ -38,6 +46,13 @@ public class ButtonNavigation : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Play_button", gameObject);
         how.SetActive(false);
+        menu.SetActive(true);
+    }
+    
+    public void BackC()
+    {
+        AkSoundEngine.PostEvent("Play_button", gameObject);
+        credits.SetActive(false);
         menu.SetActive(true);
     }
 }

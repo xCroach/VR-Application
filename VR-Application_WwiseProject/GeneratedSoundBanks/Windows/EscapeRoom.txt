@@ -35,6 +35,7 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	428412327	menu	music	\Actor-Mixer Hierarchy\Default Work Unit\music\Game_Start\Lost Temple Ruins_01		
 	585866314	finish	music	\Actor-Mixer Hierarchy\Default Work Unit\music\Game_Start\Lost Temple Ruins_01		
+	1014023728	menu	music	\Actor-Mixer Hierarchy\Default Work Unit\victory\EndOfGame		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	640949982	speed			\Default Work Unit\speed	

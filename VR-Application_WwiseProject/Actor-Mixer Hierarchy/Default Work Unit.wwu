@@ -1118,6 +1118,31 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="music" ID="{6425D76A-2042-46B4-A3FC-234304842283}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="background" ID="{9F7F1D99-E790-4232-AD3F-A453BEE4499E}"/>
+										<CustomState Name="" ID="{C0EFA6D2-0DEA-47DD-8825-37152622F79F}" ShortID="313118395"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{5F89966D-9017-4A40-A798-B228C4493B67}"/>
+										<CustomState Name="" ID="{CFF240D0-C912-47E6-8B08-D3859E739CE1}" ShortID="1014023728">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="finish" ID="{A7CA3155-7974-4FD5-9B47-46CF7C2B1C42}"/>
+										<CustomState Name="" ID="{8241C14E-B74C-43F6-8F8C-2AD3F844915B}" ShortID="15461098"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<Playlist>
 								<ItemRef Name="You've succeeded (game jingle)" ID="{EB698073-D4DA-4CA4-AE46-88CD3842EA15}"/>
 								<ItemRef Name="Victory_voiceover_01" ID="{4ED0CAB4-77DF-4350-B33E-BBF9FDA0E716}"/>

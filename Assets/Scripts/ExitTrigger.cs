@@ -8,7 +8,7 @@ public class ExitTrigger : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("ExitEnter");
+        AkSoundEngine.SetState("music", "menu");
         SceneManager.LoadSceneAsync("MainMenu");
     }
 }

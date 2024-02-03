@@ -56,7 +56,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{6DC3B3E1-81C5-AC2B-AF16-01A4BBF98540}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{C62A6D27-9A92-9F14-5E86-7224A08D44DD}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -380,5 +380,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CDBB389E-2012-CB54-56C6-1D024FEF41BA}</FileHash>
+	<FileHash>{ADFFC8F1-EBCC-CCAB-43A0-226333D89030}</FileHash>
 </SoundBanksInfo>

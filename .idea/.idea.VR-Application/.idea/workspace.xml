@@ -6,68 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd9fd9b-1806-44f6-ad5c-cd36d8912f0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR-Application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Animated.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Animated.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Open_Close.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Open_Close.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Rotation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Rotation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Shake.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Animation/Chest_Shake.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Low Poly Chest Animated Document.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Low Poly Chest Animated Document.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Brown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Brown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Gray.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Gray.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Palet.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Palet.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Pink.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Pink.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Purple.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Purple.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Silver.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Silver.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Material/M_Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Model/Chest_Animated.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Model/Chest_Animated.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Blue.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Blue.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Green.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Green.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Orange.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Orange.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Pink.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Pink.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Purple.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Purple.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Silver.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Chest Animated/Prefabs/Chest_Silver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Medieval Weapons (Melee + Ranged)/Materials/Low Poly Weapon Golden.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assetpacks/Low Poly Medieval Weapons (Melee + Ranged)/Materials/Low Poly Weapon Golden.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GreenTrans.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GreenTrans.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/triggerTransparent.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-1.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-1.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-2.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscapeRoom/ReflectionProbe-2.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Finish_Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Finish_Sound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonNavigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonNavigation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExitTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExitTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/EscapeRoom.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/EscapeRoom.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/EscapeRoom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/EscapeRoom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Android/SoundbanksInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/EscapeRoom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.bnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/EscapeRoom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VR-Application_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TriggerTooltip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HapticFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Interaction/Interactors/XRSocketInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.2/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -259,6 +216,7 @@
       <workItem from="1706692131554" duration="1372000" />
       <workItem from="1706693583560" duration="7802000" />
       <workItem from="1706871009527" duration="4303000" />
+      <workItem from="1706955491402" duration="6026000" />
     </task>
     <servers />
   </component>

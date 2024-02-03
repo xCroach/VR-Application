@@ -785,6 +785,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 57738975}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57738978}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &57738968 stripped
 Transform:
@@ -1011,6 +1015,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 57738970}
+--- !u!114 &57738978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57738969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &58541044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1776,6 +1807,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 100207225}
+    - targetCorrespondingSourceObject: {fileID: 1000010127456080, guid: ad89cac77079e92488853ed3e7591455,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100207226}
   m_SourcePrefab: {fileID: 100100000, guid: ad89cac77079e92488853ed3e7591455, type: 3}
 --- !u!1 &100207215 stripped
 GameObject:
@@ -2002,6 +2037,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 100207219}
+--- !u!114 &100207226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100207215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &102362186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2621,6 +2683,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2034865499}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff7dbc85a89abd44d86cfc2e403b62d4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2034865502}
   m_SourcePrefab: {fileID: 100100000, guid: ff7dbc85a89abd44d86cfc2e403b62d4, type: 3}
 --- !u!1 &138342447
 GameObject:
@@ -3960,6 +4026,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 176245737}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176245740}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &176245730 stripped
 GameObject:
@@ -4186,6 +4256,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 176245731}
+--- !u!114 &176245740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176245730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &180167779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4798,6 +4895,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 251187580}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 251187583}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &251187573 stripped
 Transform:
@@ -5024,6 +5125,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 251187575}
+--- !u!114 &251187583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251187574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &259970858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6036,6 +6164,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 292153706}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 292153709}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &292153699 stripped
 Transform:
@@ -6262,6 +6394,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 292153701}
+--- !u!114 &292153709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292153700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &294561093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8451422687649322545, guid: 9dabc5ad990bf3f4692bc1fb3284b782,
@@ -6626,6 +6785,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 296098974}
+--- !u!114 &296098984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296098972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &300075452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8246,6 +8432,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 296098981}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f73f02ed2257c8a4bacb00a233030cd8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 296098984}
   m_SourcePrefab: {fileID: 100100000, guid: f73f02ed2257c8a4bacb00a233030cd8, type: 3}
 --- !u!1 &370055368 stripped
 GameObject:
@@ -8472,6 +8662,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 370055370}
+--- !u!114 &370055380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370055368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &371776277
 GameObject:
   m_ObjectHideFlags: 0
@@ -9080,7 +9297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+  m_Color: {r: 0.20754719, g: 0.17179023, b: 0.12041653, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9420,6 +9637,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 447021614}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 447021617}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &447021607 stripped
 Transform:
@@ -9646,6 +9867,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 447021609}
+--- !u!114 &447021617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447021608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &449129882
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,6 +10831,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 470538222}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470538225}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &470538215 stripped
 GameObject:
@@ -10809,6 +11061,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 470538216}
+--- !u!114 &470538225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470538215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &487496618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12010,6 +12289,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 564781331}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 564781334}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &564781324 stripped
 Transform:
@@ -12236,6 +12519,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 564781326}
+--- !u!114 &564781334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564781325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &566177995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12833,6 +13143,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 593676639}
+--- !u!114 &593676648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593676637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &597495139
 GameObject:
   m_ObjectHideFlags: 0
@@ -12859,7 +13196,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597495139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12893,14 +13230,14 @@ MonoBehaviour:
   m_text: Continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4284374622
+  m_fontColor: {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13626,6 +13963,7 @@ GameObject:
   - component: {fileID: 618889495}
   - component: {fileID: 618889494}
   - component: {fileID: 618889493}
+  - component: {fileID: 618889498}
   m_Layer: 0
   m_Name: Left Teleport Ray
   m_TagString: Untagged
@@ -14286,6 +14624,33 @@ MonoBehaviour:
     m_Reference: {fileID: -1636515391019944688, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &618889498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618889491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.2
+    duration: 0.1
+  hapticSelectEntered:
+    intensity: 0
+    duration: 0
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &626715900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15003,6 +15368,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1490538811}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f9be5b7cad4d0de4c9508aba1447ab86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1490538814}
   m_SourcePrefab: {fileID: 100100000, guid: f9be5b7cad4d0de4c9508aba1447ab86, type: 3}
 --- !u!1001 &671979658
 PrefabInstance:
@@ -15370,6 +15739,7 @@ GameObject:
   - component: {fileID: 705864783}
   - component: {fileID: 705864782}
   - component: {fileID: 705864781}
+  - component: {fileID: 705864786}
   m_Layer: 0
   m_Name: Right Teleport Ray
   m_TagString: Untagged
@@ -16030,6 +16400,33 @@ MonoBehaviour:
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &705864786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705864779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.2
+    duration: 0.1
+  hapticSelectEntered:
+    intensity: 0
+    duration: 0
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &706976096
 GameObject:
   m_ObjectHideFlags: 0
@@ -16187,6 +16584,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 712535418}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712535421}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &712535411 stripped
 Transform:
@@ -16413,6 +16814,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 712535413}
+--- !u!114 &712535421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712535412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &717290746
 GameObject:
   m_ObjectHideFlags: 0
@@ -17125,7 +17553,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729358357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17159,14 +17587,14 @@ MonoBehaviour:
   m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4284374622
+  m_fontColor: {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -19334,6 +19762,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 907011043}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907011046}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &907011036 stripped
 GameObject:
@@ -19560,6 +19992,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 907011037}
+--- !u!114 &907011046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907011036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &909186672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19571,6 +20030,10 @@ PrefabInstance:
     - target: {fileID: 1000012574637910, guid: e65bfd7311cd5c548ab4ce4374b6ca1a, type: 3}
       propertyPath: m_Name
       value: Pineapple Dropzone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012574637910, guid: e65bfd7311cd5c548ab4ce4374b6ca1a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000012574637910, guid: e65bfd7311cd5c548ab4ce4374b6ca1a, type: 3}
       propertyPath: m_TagString
@@ -20416,7 +20879,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937167861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20450,14 +20913,14 @@ MonoBehaviour:
   m_text: Quit Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4284374622
+  m_fontColor: {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -21184,6 +21647,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1014911223}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1014911226}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &1014911216 stripped
 Transform:
@@ -21410,6 +21877,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1014911218}
+--- !u!114 &1014911226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014911217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &1016799933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23246,6 +23740,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1145718431}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1145718434}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &1145718424 stripped
 Transform:
@@ -23472,6 +23970,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1145718426}
+--- !u!114 &1145718434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145718425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1146034925
 GameObject:
   m_ObjectHideFlags: 0
@@ -24482,6 +25007,10 @@ PrefabInstance:
       value: Pyramid Dropzone
       objectReference: {fileID: 0}
     - target: {fileID: 1000010127456080, guid: ad89cac77079e92488853ed3e7591455, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010127456080, guid: ad89cac77079e92488853ed3e7591455, type: 3}
       propertyPath: m_TagString
       value: Respawn
       objectReference: {fileID: 0}
@@ -24674,6 +25203,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1207305351}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1207305354}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &1207305344 stripped
 GameObject:
@@ -24900,6 +25433,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1207305345}
+--- !u!114 &1207305354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207305344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1217630407
 GameObject:
   m_ObjectHideFlags: 0
@@ -25491,7 +26051,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236304814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 0.72558963, y: 0.72558963, z: 0.72558963}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25517,6 +26077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 306358768}
   how: {fileID: 701027275}
+  credits: {fileID: 0}
 --- !u!114 &1236304817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25585,7 +26146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a1048ee3c56773f429463c94ca307f53, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -26568,7 +27129,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3109763144457829045, guid: d6cf00e11eb2d004eb5167fb19a06a92,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1733459896}
   m_SourcePrefab: {fileID: 100100000, guid: d6cf00e11eb2d004eb5167fb19a06a92, type: 3}
 --- !u!59 &1292086550 stripped
 HingeJoint:
@@ -27712,6 +28277,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1361038102}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1361038105}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &1361038095 stripped
 GameObject:
@@ -27938,6 +28507,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1361038096}
+--- !u!114 &1361038105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361038095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1364545724
 GameObject:
   m_ObjectHideFlags: 0
@@ -28766,6 +29362,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1428061335}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1428061338}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &1428061328 stripped
 GameObject:
@@ -28992,6 +29592,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1428061329}
+--- !u!114 &1428061338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428061328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1428526027
 GameObject:
   m_ObjectHideFlags: 0
@@ -30008,6 +30635,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1446259370}
+    - targetCorrespondingSourceObject: {fileID: 1000012574637910, guid: e65bfd7311cd5c548ab4ce4374b6ca1a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1446259371}
   m_SourcePrefab: {fileID: 100100000, guid: e65bfd7311cd5c548ab4ce4374b6ca1a, type: 3}
 --- !u!1 &1446259360 stripped
 GameObject:
@@ -30234,6 +30865,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1446259364}
+--- !u!114 &1446259371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446259360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1457546948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1041204111018390694, guid: 9dabc5ad990bf3f4692bc1fb3284b782,
@@ -30486,6 +31144,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1490538803}
+--- !u!114 &1490538814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490538802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1490711809
 GameObject:
   m_ObjectHideFlags: 0
@@ -30540,6 +31225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 306358768}
   how: {fileID: 701027275}
+  credits: {fileID: 0}
 --- !u!114 &1490711812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30608,7 +31294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a1048ee3c56773f429463c94ca307f53, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -31649,6 +32335,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1542538031}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1542538034}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &1542538024 stripped
 GameObject:
@@ -31875,6 +32565,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1542538025}
+--- !u!114 &1542538034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542538024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1550670951
 GameObject:
   m_ObjectHideFlags: 0
@@ -32525,6 +33242,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec15ca6a7b298a040a184a5146e27df3, type: 3}
+--- !u!1 &1604065271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3109763144457829045, guid: d6cf00e11eb2d004eb5167fb19a06a92,
+    type: 3}
+  m_PrefabInstance: {fileID: 1292086549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1605483811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33002,6 +33725,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1652725548}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652725551}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &1652725541 stripped
 Transform:
@@ -33228,6 +33955,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1652725543}
+--- !u!114 &1652725551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652725542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &1654124560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33397,6 +34151,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 370055377}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 46b89bc4f3c767c408e5ab9bb09779a1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 370055380}
   m_SourcePrefab: {fileID: 100100000, guid: 46b89bc4f3c767c408e5ab9bb09779a1, type: 3}
 --- !u!1001 &1671203372
 PrefabInstance:
@@ -34163,6 +34921,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1725531333}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1725531336}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!1 &1725531326 stripped
 GameObject:
@@ -34389,6 +35151,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1725531327}
+--- !u!114 &1725531336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725531326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &1725716552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35289,6 +36078,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1292086549}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1733459896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604065271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1001 &1738032235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36842,6 +37658,10 @@ PrefabInstance:
       value: Cross Dropzone
       objectReference: {fileID: 0}
     - target: {fileID: 1000013466574904, guid: b38ee9e7d5f46784eafbaadf147c7a33, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013466574904, guid: b38ee9e7d5f46784eafbaadf147c7a33, type: 3}
       propertyPath: m_TagString
       value: Respawn
       objectReference: {fileID: 0}
@@ -37899,7 +38719,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862096717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 0.72558963, y: 0.72558963, z: 0.72558963}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37925,6 +38745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 306358768}
   how: {fileID: 701027275}
+  credits: {fileID: 0}
 --- !u!114 &1862096720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37993,7 +38814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a1048ee3c56773f429463c94ca307f53, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -39303,6 +40124,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1890821370}
+    - targetCorrespondingSourceObject: {fileID: 2084934084347886187, guid: ba9444785a863ca47881cca5fa874378,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1890821371}
   m_SourcePrefab: {fileID: 100100000, guid: ba9444785a863ca47881cca5fa874378, type: 3}
 --- !u!4 &1890821359 stripped
 Transform:
@@ -39652,6 +40477,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: {fileID: 367909322}
   grab: {fileID: 1890821361}
+--- !u!114 &1890821371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890821360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.15
+    duration: 0.03
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1925311284 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7437695000537628686, guid: 9dabc5ad990bf3f4692bc1fb3284b782,
@@ -39924,7 +40776,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 451f649438563de41bf3a018f317aef4, type: 3}
+  m_Texture: {fileID: 2800000, guid: 334248ef69749fa4ca972494713797fc, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -40031,6 +40883,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1953110472}
+    - targetCorrespondingSourceObject: {fileID: 1000012501411042, guid: 34a226b2b0cae434eab560c2f7b63617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1953110475}
   m_SourcePrefab: {fileID: 100100000, guid: 34a226b2b0cae434eab560c2f7b63617, type: 3}
 --- !u!4 &1953110465 stripped
 Transform:
@@ -40257,6 +41113,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 1953110467}
+--- !u!114 &1953110475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953110466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1959343020
 GameObject:
   m_ObjectHideFlags: 0
@@ -40285,7 +41168,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959343020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 0.72558963, y: 0.72558963, z: 0.72558963}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40311,6 +41194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 306358768}
   how: {fileID: 701027275}
+  credits: {fileID: 0}
 --- !u!114 &1959343023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40379,7 +41263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a1048ee3c56773f429463c94ca307f53, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -40437,7 +41321,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967206466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40471,14 +41355,14 @@ MonoBehaviour:
   m_text: How to Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4284374622
+  m_fontColor: {r: 0.36862746, g: 0.36862746, b: 0.36862746, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -40969,7 +41853,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 16934bc841cd8e741bbd31fe455dcb93, type: 2}
+      objectReference: {fileID: 2100000, guid: ae0d45b76d4a4464d919391252cbfe76, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40990,6 +41874,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 593676647}
+    - targetCorrespondingSourceObject: {fileID: 1000013466574904, guid: b38ee9e7d5f46784eafbaadf147c7a33,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 593676648}
   m_SourcePrefab: {fileID: 100100000, guid: b38ee9e7d5f46784eafbaadf147c7a33, type: 3}
 --- !u!1 &1998441660 stripped
 GameObject:
@@ -41861,6 +42749,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grab: {fileID: 2034865491}
+--- !u!114 &2034865502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034865490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d9bf73924ab594b86ccc85bb2a6f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &2035062284
 GameObject:
   m_ObjectHideFlags: 0
