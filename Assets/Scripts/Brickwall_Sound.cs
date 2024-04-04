@@ -28,4 +28,12 @@ public class Brickwall_Sound : MonoBehaviour
     {
         //AkSoundEngine.PostEvent("Play_drop", gameObject);
     }
+    
+    private void OnCollisionEnter(Collision other)
+        {
+            if (!other.collider.CompareTag("Respawn"))
+            {
+                AkSoundEngine.PostEvent("Play_drop", gameObject);
+            }
+        }
 }

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WhiteLight
+  m_Name: TargetActivate
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -114,12 +114,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8867924, g: 0.69234276, b: 0.10457456, a: 1}
-    - _Color: {r: 0.8867924, g: 0.6923427, b: 0.10457454, a: 1}
-    - _EmissionColor: {r: 2.2971342, g: 1.4806132, b: 0.42258605, a: 1}
+    - _BaseColor: {r: 1, g: 0.57254905, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.57254905, b: 0, a: 1}
+    - _EmissionColor: {r: 4.237095, g: 1.0146301, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6999976463006966082
+--- !u!114 &2075436812471857889
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

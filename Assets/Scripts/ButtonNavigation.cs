@@ -48,7 +48,14 @@ public class ButtonNavigation : MonoBehaviour
         how.SetActive(false);
         menu.SetActive(true);
     }
-    
+
+    public void MainMenu()
+    {
+        AkSoundEngine.PostEvent("Play_Button", gameObject);
+        AkSoundEngine.SetState("music", "menu");
+        SceneManager.LoadSceneAsync("MainMenu");
+    }
+
     public void BackC()
     {
         AkSoundEngine.PostEvent("Play_button", gameObject);
