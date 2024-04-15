@@ -23,9 +23,9 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Android">GeneratedSoundBanks\Android</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
@@ -38,7 +38,7 @@
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjcwOTMiIG1hc2s9IlFUWEE1ODk4IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyNC0xMC0yMSIgIC8+PGxpY2Vuc2UgaWQ9 IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMTAtMjEiICAvPjxsaWNlbnNl IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMTAtMjEiICAvPjxsaWNlbnNl IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw aXJlcz0iMjAyNC0xMC0yMSIgIC8+PGxpY2Vuc2UgaWQ9IjY4IiBuYW1lPSJhdG1v a3kgRWFycyIgdHlwZT0iMSIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxNCIgZXhwaXJl cz0iMjAyMS0wOS0xMyIgIC8+PHBsdWdpbiBpZD0iNzAzMzkiIG5hbWU9ImF0bW9r eSBFYXJzIiBsaWNlbnNlPSI2OCIgLz48L3Byb2plY3Q+|EQuEskP8KqdPBwSZTTD 6ebuAZlbN/+qKI4hPBGsB3MkddKRbWbhc0u2R31E4te3gBaiWH5sbG6a//njeIoc M8DIBqxkCajSlZRQJEtsLZiMkvvFglO7gvi/0clfDfmFpCShyAgO5cAG3YhmrpWq pRkcN62zKMazznho1WpqcTo/rJSWBnk8Vi2UWwmiuaFDGr+XQPvZhEgIXqnyOzza IbZELVdf0u8AqbQ4wWGQ75mk7scdINtYy6JuPilVaSp7g0QXxXHS4Fa4J7SfA2gy 0adRCtdqMsE40hv/44DUW7kKv7zswcXP6cCsgLfj2C9N+/e0WT8KXNOC3dubOOdS Mhg== "/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
@@ -83,6 +83,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2022.1|Build=8365|VersionName=v2022.1.9|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -8799,6 +8803,195 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+					<PropertyList>
+						<Property Name="AlgoTypeSelect" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfigOverride" Type="int64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DryLevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontRearDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FullPrecisionMedia" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="HardwareAcceleration" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRChannelSelect" Type="int32">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmooth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmoothMax" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStart" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionThreshold" Type="Real32">
+							<ValueList>
+								<Value>-75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRGraphicEQAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFSlope" Type="int32">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLRMix" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevelAutomate" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRStretch" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputCenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputLFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputStereoWidth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputThreshold" Type="Real32">
+							<ValueList>
+								<Value>-60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PreDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RearLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineBlockSize" Type="int32">
+							<ValueList>
+								<Value>1024</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateDefault" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateMac" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateiOS" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="StereoWidth" Type="Real32">
+							<ValueList>
+								<Value>180</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Meter" PluginType="3" CompanyID="0" PluginID="129">
 					<PropertyList>
 						<Property Name="ApplyDownstreamVolume" Type="bool">
@@ -9501,6 +9694,110 @@
 						<Property Name="OverrideColor" Type="bool">
 							<ValueList>
 								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="Wwise Reflect" PluginType="3" CompanyID="0" PluginID="171">
+					<PropertyList>
+						<Property Name="BaseTextureFrequency" Type="Real32">
+							<ValueList>
+								<Value>250</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CenterPerc" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CurveUsageMask" Type="Uint32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DiffractionWarping" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DistanceThreshold" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DistanceWarping" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Dry" Type="Real32">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxDistance" Type="Real32">
+							<ValueList>
+								<Value>1000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxReflections" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputChannelConfig" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ParamFilterCutoff" Type="Real32">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ParamFilterType" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PhasingSuppression" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PitchThreshold" Type="Real32">
+							<ValueList>
+								<Value>2400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeedOfSound" Type="Real32">
+							<ValueList>
+								<Value>345</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ThresholdMode" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wet" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -10988,7 +11285,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-3</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -11009,7 +11306,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>60</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -11051,7 +11348,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-12</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -11072,7 +11369,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>100</YPos>
+										<YPos>75</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>

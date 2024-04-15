@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 020acee4996aac4e9baef3af25bd0da7
     GuidInternal: 
-    m_lastTime: -8584947916516778405
+    m_lastTime: -8584884225314458476
     List:
+    - name: hallway
+      guid: 34ca30861069894582aeb0edc2646ea2
+      id: 2198133169
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 020acee4996aac4e9baef3af25bd0da7
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: hallway
+        ObjectType: 1
+        guid: 34ca30861069894582aeb0edc2646ea2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\hallway
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,6 +88,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: cce77eb7824186479e6a1d0cc43ebc2a
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverb
+    - name: room
+      guid: d166b7860c9fd94f94f6ef923ef09ee7
+      id: 2077253480
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 020acee4996aac4e9baef3af25bd0da7
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: room
+        ObjectType: 1
+        guid: d166b7860c9fd94f94f6ef923ef09ee7
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\room
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -719,7 +753,7 @@ MonoBehaviour:
     m_lastTime: -8584957695046165647
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

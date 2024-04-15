@@ -9,12 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EDD1CA40-7C42-4A64-7AEF-1FC51E386D36}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{21C03E01-336F-F854-64C6-106D89E06BFA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1159390747" Name="Room_Medium_Tiled" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2791153688" Name="Hall_Small" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -29,6 +31,20 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2077253480" Name="room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1159390747"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2198133169" Name="hallway">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2791153688"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -380,5 +396,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9F74709-0377-821D-E985-2D11A755B461}</FileHash>
+	<FileHash>{F1B3475D-7CE1-BE64-B9AF-EFAEA321BF22}</FileHash>
 </SoundBanksInfo>
