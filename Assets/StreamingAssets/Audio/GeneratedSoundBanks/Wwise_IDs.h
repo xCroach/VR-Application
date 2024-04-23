@@ -84,6 +84,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID HALLWAY = 2198133169U;
+        static const AkUniqueID REFLECT = 243379636U;
         static const AkUniqueID REVERB = 348963605U;
         static const AkUniqueID ROOM = 2077253480U;
     } // namespace AUX_BUSSES

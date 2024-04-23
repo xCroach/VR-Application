@@ -4,8 +4,9 @@
 		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
 		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="SoundSeed Air Wind" LibId="7798786" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWindSource"/>
+		<PluginLib LibName="Wwise Reflect" LibId="11206659" Type="Effect" DLL="AkReflect" StaticLib="AkReflectFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{FAA84961-908F-6125-DD8D-288597BB3C92}</FileHash>
+	<FileHash>{DA6B70D1-2483-84A5-2522-CF6157579438}</FileHash>
 </PluginInfo>
