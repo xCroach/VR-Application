@@ -13970,7 +13970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerList: d1bbb3b5
   useOtherObject: 0
-  initialState: 1
+  initialState: 0
   closePortalTriggerList: 
   rooms:
   - {fileID: 292602658}
@@ -20598,7 +20598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerList: d1bbb3b5
   useOtherObject: 0
-  initialState: 1
+  initialState: 0
   closePortalTriggerList: 
   rooms:
   - {fileID: 60955605}
@@ -20744,7 +20744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerList: d1bbb3b5
   useOtherObject: 0
-  initialState: 1
+  initialState: 0
   closePortalTriggerList: 
   rooms:
   - {fileID: 292602658}
@@ -45917,7 +45917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerList: d1bbb3b5
   useOtherObject: 0
-  initialState: 1
+  initialState: 0
   closePortalTriggerList: 
   rooms:
   - {fileID: 132486734}
@@ -45953,7 +45953,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 15.127281, y: 37.89265, z: 38.64521}
-  m_LocalScale: {x: 1.1844, y: 2.1886928, z: 1}
+  m_LocalScale: {x: 1.1844, y: 2.1886928, z: 1.4564612}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190763325}
