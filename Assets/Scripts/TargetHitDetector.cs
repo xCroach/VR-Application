@@ -9,6 +9,7 @@ public class TargetHitDetector : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private Target[] targets;
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject roomPortal;
     
     private bool AllHit => targets.All(it=>it.hit);
     private bool alreadyTriggered = false;
@@ -28,6 +29,7 @@ public class TargetHitDetector : MonoBehaviour
             //do some stuff
             animator.SetBool("targetsHit",true);
             AkSoundEngine.PostEvent("Play_door", gameObject);
+            roomPortal.SetActive(true);
         }
     }
 }

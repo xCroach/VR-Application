@@ -9,11 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{89824A07-8A5C-CD15-56A3-B82CFB68A0BC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F8A2EFBB-3E10-EC20-A8BC-4D983D633827}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="243379636" Name="Reflect" LibName="Wwise Reflect" LibId="11206659"/>
 					<Plugin Id="702543456" Name="Tunnel1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="1159390747" Name="Room_Medium_Tiled" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -39,6 +40,13 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="438105790" Name="outside">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
 						</ShareSets>
 					</PluginRefs>
 				</AuxBus>
@@ -194,7 +202,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{44438839-FAF1-DE70-A020-7A380C2951B4}">
+		<SoundBank Id="1715913297" Type="User" Language="SFX" Hash="{FA03D737-7BE7-A468-2D86-764AC8ED4F78}">
 			<ShortName>EscapeRoom</ShortName>
 			<Path>EscapeRoom.bnk</Path>
 			<Media>
@@ -231,6 +239,10 @@
 				<File Id="162547366" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Deep wooshing.wav</ShortName>
 					<CachePath>SFX/Deep wooshing_77879570.wem</CachePath>
+				</File>
+				<File Id="251352923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambiente_Palenque.wav</ShortName>
+					<CachePath>SFX/Ambiente_Palenque_10C4C929.wem</CachePath>
 				</File>
 				<File Id="282263689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button Clicking 6 (Single).wav</ShortName>
@@ -310,10 +322,6 @@
 					<ShortName>Soundeffects\Falling Object - 2.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Falling Object - 2_7AE0C659.wem</CachePath>
 				</File>
-				<File Id="981470882" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>bird chirps.wav</ShortName>
-					<CachePath>SFX/bird chirps_10C4C929.wem</CachePath>
-				</File>
 				<File Id="994880006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundeffects\Crossbow\Bow Release (Bow and Arrow) 2.wav</ShortName>
 					<CachePath>SFX/Soundeffects/Crossbow/Bow Release (Bow and Arrow) 2_CA688A6A.wem</CachePath>
@@ -338,7 +346,7 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
 							<MediaRefs>
-								<MediaRef Id="981470882"/>
+								<MediaRef Id="251352923"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -352,7 +360,7 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1359360203" Id="3399879612"/>
 							<MediaRefs>
-								<MediaRef Id="981470882"/>
+								<MediaRef Id="251352923"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -521,5 +529,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2BBAA85A-9AE3-B872-5EA9-78A76BB72A67}</FileHash>
+	<FileHash>{10CD9B0D-0F57-4729-3B79-09C19742744B}</FileHash>
 </SoundBanksInfo>

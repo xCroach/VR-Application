@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 020acee4996aac4e9baef3af25bd0da7
     GuidInternal: 
-    m_lastTime: -8584877320499456427
+    m_lastTime: -8584840200097882865
     List:
     - name: hallway
       guid: 34ca30861069894582aeb0edc2646ea2
@@ -336,6 +336,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: outside
+      guid: 5a1802854410be4187ce80c61ceefe60
+      id: 438105790
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 020acee4996aac4e9baef3af25bd0da7
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: outside
+        ObjectType: 1
+        guid: 5a1802854410be4187ce80c61ceefe60
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\outside
     - name: reflect
       guid: eac56bfd4ead8243af6e391e185b708e
       id: 243379636
@@ -441,7 +458,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 8d91e7e4a0d22d429f5fa91be1b64e54
     GuidInternal: 
-    m_lastTime: -8584948974926493360
+    m_lastTime: -8584840183912633922
     List:
     - name: Ambient
       guid: 07b894b315f98248a1e755dd3fb9b229
@@ -1035,7 +1052,7 @@ MonoBehaviour:
     m_lastTime: -8584957695046165647
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000080000000b0000000c0000000d0000001700000018000000190000001b0000001d0000001e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

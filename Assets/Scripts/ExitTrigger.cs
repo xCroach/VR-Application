@@ -8,6 +8,7 @@ public class ExitTrigger : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.gameObject.CompareTag("Player")) return;
         AkSoundEngine.SetState("music", "menu");
         SceneManager.LoadSceneAsync("MainMenu");
     }

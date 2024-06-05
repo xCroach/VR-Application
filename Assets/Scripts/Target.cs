@@ -15,6 +15,7 @@ public class Target : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.gameObject.CompareTag("Arrow")) return;
         hit = true;
         if (other.gameObject.TryGetComponent(out Rigidbody rigidbody))
         {

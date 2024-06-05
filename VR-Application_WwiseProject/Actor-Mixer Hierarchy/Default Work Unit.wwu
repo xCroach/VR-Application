@@ -1371,11 +1371,11 @@
 								<ActiveSource Name="Shadow King Temple" ID="{9B387C38-487F-486A-BBA5-5D87265FEEC2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}" ShortID="798224705">
+						<Sound Name="Ambiente_Palenque" ID="{8C6E83E5-4CB4-4548-BDC4-3AD43E1E04CD}" ShortID="734658320">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1388,26 +1388,26 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="bird chirps" ID="{13FD5985-1ED2-4B7C-B964-77D98A9259CE}">
+								<AudioFileSource Name="Ambiente_Palenque" ID="{9CA76990-661E-4D6B-A121-EF5330F6CA8A}">
 									<Language>SFX</Language>
-									<AudioFile>bird chirps.wav</AudioFile>
+									<AudioFile>Ambiente_Palenque.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="981470882"/>
+										<MediaID ID="251352923"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="bird chirps" ID="{13FD5985-1ED2-4B7C-B964-77D98A9259CE}" Platform="Linked"/>
+								<ActiveSource Name="Ambiente_Palenque" ID="{9CA76990-661E-4D6B-A121-EF5330F6CA8A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
-								<ItemRef Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}"/>
+								<ItemRef Name="wind" ID="{C97F94CF-A322-4980-A295-2B39D9875B60}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="wind" ID="{C97F94CF-A322-4980-A295-2B39D9875B60}"/>
+								<ItemRef Name="Ambiente_Palenque" ID="{8C6E83E5-4CB4-4548-BDC4-3AD43E1E04CD}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Shadow King Temple" ID="{908AC9EB-2192-4ABA-A887-F8DC6C32B99B}"/>
@@ -1417,7 +1417,7 @@
 							<Grouping>
 								<SwitchRef Name="Room_03" ID="{72907E59-3791-442A-9084-F73BDBCFF79E}"/>
 								<ItemList>
-									<ItemRef Name="bird chirps" ID="{CBEE4C92-F6BE-427B-BB90-5076DED73735}"/>
+									<ItemRef Name="Ambiente_Palenque" ID="{8C6E83E5-4CB4-4548-BDC4-3AD43E1E04CD}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>

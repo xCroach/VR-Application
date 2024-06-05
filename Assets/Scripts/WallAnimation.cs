@@ -11,6 +11,7 @@ public class WallAnimation : MonoBehaviour
     [SerializeField] private HingeJoint leverJoint;
 
     [SerializeField] private GameObject dropzones;
+    [SerializeField] private GameObject roomPortal;
     
     private bool alreadyTriggered = false;
     
@@ -34,5 +35,6 @@ public class WallAnimation : MonoBehaviour
     {
         animator.SetBool("wallDown",true);
         dropzones.SetActive(true);
+        roomPortal.SetActive(true);
     }
 }

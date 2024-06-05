@@ -13,6 +13,8 @@ public class DropzoneTrigger : MonoBehaviour
     [SerializeField] private XRSocketInteractor dropZonePyramid;
     [SerializeField] private XRSocketInteractor dropZoneCross;
 
+    [SerializeField] private GameObject roomPortal;
+
     private int socketsFilled = 0;
     private bool alreadyTriggered = false;
 
@@ -60,5 +62,6 @@ public class DropzoneTrigger : MonoBehaviour
     {
         animator.SetBool("wallDown",true);
         AkSoundEngine.PostEvent("Play_door", gameObject);
+        roomPortal.SetActive(true);
     }
 }
